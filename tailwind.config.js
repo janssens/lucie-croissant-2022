@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['nunito_sans', ...defaultTheme.fontFamily.sans],
-        'serif': ['libre_baskerville', ...defaultTheme.fontFamily.serif],
+        'sans': ['"nunito_sans"', ...defaultTheme.fontFamily.sans],
+        'serif': ['"libre_baskerville"', ...defaultTheme.fontFamily.serif],
       },
       colors: {
         'union-blue': '#3F2682',
