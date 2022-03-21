@@ -3,7 +3,7 @@
 
 
 @font-face {
-    font-family: 'libre_baskervilleregular';
+    font-family: 'libre_baskerville';
     src: url('librebaskerville-regular-webfont.woff2') format('woff2'),
          url('librebaskerville-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -15,7 +15,7 @@
 
 
 @font-face {
-    font-family: 'nunito_sansregular';
+    font-family: 'nunito_sans';
     src: url('nunitosans-regular-webfont.woff2') format('woff2'),
          url('nunitosans-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -27,10 +27,10 @@
 
 
 @font-face {
-    font-family: 'nunito_sansblack';
+    font-family: 'nunito_sans';
     src: url('nunitosans-black-webfont.woff2') format('woff2'),
          url('nunitosans-black-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 900;
     font-style: normal;
 
 }

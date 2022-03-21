@@ -7,8 +7,8 @@
     <link href="./dist/fonts/stylesheet.css" rel="stylesheet">
 </head>
 <body class="bg-white md:bg-union-blue text-white font-sans">
-<header class="p-4">
-    <h1 class="">
+<header class="p-4 columns-2">
+    <h1 class="w-full">
         <span class="hidden">Lucie Croissant</span>
         <svg width="279" height="131" viewBox="0 0 279 131" class="h-100 fill-union-blue md:fill-white max-w-full" xmlns="http://www.w3.org/2000/svg">
             <path d="M198.752 67.5683V54.1678L195.087 1.03806H219.5L216.115 46.5395H198.226L198.752 54.1678H216.115V67.5683H198.752Z" fill="#409682"/>
@@ -27,23 +27,41 @@
             <path d="M259.75 130.481V104.294H249.181V97.2159H279V104.294H268.431V130.481H259.75Z"/>
         </svg>
     </h1>
-    <a href="#burger">
-        <div class="space-y-2">
-            <div class="w-8 h-0.5 bg-union-blue-600"></div>
-            <div class="w-8 h-0.5 bg-union-blue-600"></div>
-            <div class="w-8 h-0.5 bg-union-blue-600"></div>
-        </div>
-    </a>
+    <div class="w-full">
+        <a href="#burger" class="float-right">
+            <div class="space-y-2">
+                <div class="w-8 h-0.5 bg-union-blue"></div>
+                <div class="w-8 h-0.5 bg-union-blue"></div>
+                <div class="w-8 h-0.5 bg-union-blue"></div>
+            </div>
+        </a>
+    </div>
+    <img src="./dist/lucie_mobile.png" class="absolute left-1/2 -ml-12" width="220px" height="175px" alt="lucie croissant - candidate législatives 2022">
 </header>
-<section class="">
+<section class="relative">
     <h2 class="p-4 bg-union-blue md:bg-transparent">
-        Notre future <strong>députée</strong> candidate citoyenne aux élections législatives de la 9è circonsctription de l’ <strong>Isère</strong> du <strong>12 & 19 juin 2022</strong>
+        Notre future <strong>députée</strong> candidate citoyenne aux élections législatives de la 9è circonsctription de l’<strong>Isère</strong> du <strong>12 & 19 juin 2022</strong>
     </h2>
-    <form class="bg-eelv-green block w-full">
-        <h3>form title</h3>
+    <form class="bg-eelv-green block w-full p-4">
+        <h3 class="font-bold text-lg uppercase"><span class="font-black text-3xl">Signez l'appel</span> pour faire gagner l'écologie et la justice sociale en 2022 en isère</h3>
+        <input class="w-full text-black p-1 my-2" type="text" required="required" name="firstname" placeholder="Prénom">
+        <input class="w-full text-black p-1 my-2" type="text" required="required" name="lastname" placeholder="Nom">
+        <input class="w-full text-black p-1 my-2" type="email" required="required" name="mail" placeholder="mon@e-mail.fr">
+        <input class="w-full text-black p-1 my-2" type="text" name="telephone" placeholder="Téléphone mobile (facultatif)">
+        <input class="w-full text-black p-1 my-2" type="digit" required="required" name="postcode" placeholder="Code postal (ex: 38500)">
+        <label class="w-full block" for="rgpd">
+            <input type="checkbox" id="rgpd" name="rgpd" required="required" />
+            J'accepte que mes informations soient traitées conformément à la politique de conservation des données.
+        </label>
+        <label class="w-full block" for="help">
+            <input type="checkbox" id="help" name="help" />
+            Je souhaite apporter mon aide au projet (en fonction des mes 
+disponibilités : 10 min, 1h, 10h...)
+        </label>
+        <button type="submit" class="block uppercase text-center bg-union-blue text-white font-black mt-2 mx-auto p-2">Je signe l'appel</button>
     </form>
 </section>
-<footer>
+<footer class="bg-black text-white p-4">
     <nav id="burger">
         <ul>
             <li><a href="./qui-suis-je.html">Qui suis-je ?</a></li>
