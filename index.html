@@ -6,11 +6,11 @@
     <link href="./dist/output.css" rel="stylesheet">
     <link href="./dist/fonts/stylesheet.css" rel="stylesheet">
 </head>
-<body class="bg-white md:bg-union-blue text-white font-sans">
-<header class="p-4 columns-2">
+<body class="bg-white md:bg-union-blue text-white font-sans min-h-screen bg-gray-500">
+<header class="p-4 columns-2 bg-white md:bg-union-blue max-w-7xl mx-auto">
     <h1 class="w-full">
-        <span class="hidden">Lucie Croissant</span>
-        <svg width="279" height="131" viewBox="0 0 279 131" class="h-100 fill-union-blue md:fill-white max-w-full" xmlns="http://www.w3.org/2000/svg">
+        <span class="sr-only">Lucie Croissant</span>
+        <svg viewBox="0 0 279 131" class="h-100 fill-union-blue md:fill-white max-w-sm" xmlns="http://www.w3.org/2000/svg">
             <path d="M198.752 67.5683V54.1678L195.087 1.03806H219.5L216.115 46.5395H198.226L198.752 54.1678H216.115V67.5683H198.752Z" fill="#409682"/>
             <path d="M3.86891 67.5683V1.03806H21.2318V53.1298H50.8621V67.5683H3.86891Z"/>
             <path d="M88.104 68.6063C78.416 68.6063 70.9927 66.1527 65.8342 61.2455C60.7385 56.3383 58.1907 49.009 58.1907 39.2575V1.03806H75.5537V39.4463C75.5537 44.2905 76.6231 47.9395 78.762 50.3931C80.9009 52.8467 84.0149 54.0735 88.104 54.0735C92.1302 54.0735 95.2128 52.8467 97.3517 50.3931C99.4906 47.9395 100.56 44.2905 100.56 39.4463V1.03806H117.64V39.2575C117.64 49.009 115.124 56.3383 110.091 61.2455C105.121 66.1527 97.792 68.6063 88.104 68.6063Z"/>
@@ -28,7 +28,8 @@
         </svg>
     </h1>
     <div class="w-full">
-        <a href="#burger" class="float-right">
+        <a href="#burger" class="float-right md:hidden focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <span class="sr-only">Open menu</span>
             <div class="space-y-2">
                 <div class="w-8 h-0.5 bg-union-blue"></div>
                 <div class="w-8 h-0.5 bg-union-blue"></div>
@@ -38,11 +39,14 @@
     </div>
     <img src="./dist/lucie_mobile.png" class="absolute left-1/2 -ml-12" width="220px" height="175px" alt="lucie croissant - candidate législatives 2022">
 </header>
-<section class="relative">
+<section class="relative max-w-7xl mx-auto">
     <h2 class="p-4 bg-union-blue md:bg-transparent">
         Notre future <strong>députée</strong> candidate citoyenne aux élections législatives de la 9è circonsctription de l’<strong>Isère</strong> du <strong>12 & 19 juin 2022</strong>
     </h2>
-    <form class="bg-eelv-green block w-full p-4">
+    <div class="hidden md:block font-serif">
+        <p>Je souhaite porter pour vous la voix de l’écologie, de la justice sociale et de la démocratie. Ensemble nous pouvons faire différemment.</p>
+    </div>
+    <form class="bg-eelv-green block w-full p-4 md:p-8 md:w-1/2 md:absolute md:right-0 lg:w-1/3 lg:max-w-xl lg:right-16">
         <h3 class="font-bold text-lg uppercase"><span class="font-black text-3xl">Signez l'appel</span> pour faire gagner l'écologie et la justice sociale en 2022 en isère</h3>
         <input class="w-full text-black p-1 my-2" type="text" required="required" name="firstname" placeholder="Prénom">
         <input class="w-full text-black p-1 my-2" type="text" required="required" name="lastname" placeholder="Nom">
@@ -61,14 +65,68 @@ disponibilités : 10 min, 1h, 10h...)
         <button type="submit" class="block uppercase text-center bg-union-blue text-white font-black mt-2 mx-auto p-2">Je signe l'appel</button>
     </form>
 </section>
-<footer class="bg-black text-white p-4">
-    <nav id="burger">
+<footer class="text-gray-300 p-4">
+    <nav id="burger" class="text-center uppercase pt-4">
         <ul>
-            <li><a href="./qui-suis-je.html">Qui suis-je ?</a></li>
-            <li><a href="./nos-priorites.html">Nos priorités</a></li>
-            <li><a href="./soutenir.html">Soutenir</a></li>
+            <li><a class="hover:underline" href="./qui-suis-je.html">Qui suis-je ?</a></li>
+            <li><a class="hover:underline" href="./nos-priorites.html">Nos priorités</a></li>
+            <li><a class="hover:underline" href="./soutenir.html">Soutenir</a></li>
+            <li><a class="hover:underline" href="./mentions_legales.html">Mentions légales</a></li>
         </ul>
     </nav>
 </footer>
+<div id="burger_menu" class="fixed top-0 left-0 right-0 bottom-0 bg-union-blue p-4 hidden md:hidden">
+    <header class="flex flex-row">
+        <div class="basis-1/3 w-1/3">
+            <span class="sr-only">Lucie Croissant</span>
+            <svg viewBox="0 0 279 131" class="fill-white w-full" xmlns="http://www.w3.org/2000/svg">
+                <path d="M198.752 67.5683V54.1678L195.087 1.03806H219.5L216.115 46.5395H198.226L198.752 54.1678H216.115V67.5683H198.752Z" fill="#409682"/>
+                <path d="M3.86891 67.5683V1.03806H21.2318V53.1298H50.8621V67.5683H3.86891Z"/>
+                <path d="M88.104 68.6063C78.416 68.6063 70.9927 66.1527 65.8342 61.2455C60.7385 56.3383 58.1907 49.009 58.1907 39.2575V1.03806H75.5537V39.4463C75.5537 44.2905 76.6231 47.9395 78.762 50.3931C80.9009 52.8467 84.0149 54.0735 88.104 54.0735C92.1302 54.0735 95.2128 52.8467 97.3517 50.3931C99.4906 47.9395 100.56 44.2905 100.56 39.4463V1.03806H117.64V39.2575C117.64 49.009 115.124 56.3383 110.091 61.2455C105.121 66.1527 97.792 68.6063 88.104 68.6063Z"/>
+                <path d="M165.204 68.6063C157.843 68.6063 151.521 67.1908 146.237 64.3597C140.952 61.5286 136.895 57.5337 134.064 52.3748C131.296 47.216 129.912 41.1764 129.912 34.256C129.912 27.3356 131.296 21.3274 134.064 16.2315C136.895 11.0726 140.952 7.07768 146.237 4.24661C151.521 1.41554 157.843 0 165.204 0C169.607 0 173.854 0.69204 177.943 2.07612C182.032 3.39729 185.335 5.15884 187.851 7.36079L182.661 21.0443C179.893 19.0311 177.125 17.5526 174.357 16.609C171.589 15.6023 168.758 15.099 165.864 15.099C160.014 15.099 155.61 16.7662 152.653 20.1006C149.697 23.3721 148.218 28.0905 148.218 34.256C148.218 40.4843 149.697 45.2657 152.653 48.6001C155.61 51.8715 160.014 53.5073 165.864 53.5073C168.758 53.5073 171.589 53.0354 174.357 52.0917C177.125 51.0851 179.893 49.5752 182.661 47.562L187.851 61.2455C185.335 63.4475 182.032 65.2405 177.943 66.6246C173.854 67.9457 169.607 68.6063 165.204 68.6063Z"/>
+                <path d="M230.508 67.5683V1.03806H277.501V14.4385H247.116V27.0839H275.331V40.4843H247.116V54.1678H277.501V67.5683H230.508Z"/>
+                <path d="M17.646 131C13.9658 131 10.8046 130.292 8.16246 128.877C5.52028 127.461 3.49146 125.464 2.076 122.884C0.692001 120.305 0 117.285 0 113.825C0 110.365 0.692001 107.361 2.076 104.813C3.49146 102.233 5.52028 100.236 8.16246 98.8201C10.8046 97.4046 13.9658 96.6968 17.646 96.6968C19.8478 96.6968 21.971 97.0429 24.0156 97.7349C26.0601 98.3955 27.7115 99.2763 28.9697 100.377L26.3747 107.219C24.9907 106.212 23.6067 105.473 22.2227 105.001C20.8387 104.498 19.4232 104.246 17.9763 104.246C15.051 104.246 12.8492 105.08 11.3708 106.747C9.89246 108.383 9.15328 110.742 9.15328 113.825C9.15328 116.939 9.89246 119.33 11.3708 120.997C12.8492 122.633 15.051 123.45 17.9763 123.45C19.4232 123.45 20.8387 123.215 22.2227 122.743C23.6067 122.239 24.9907 121.484 26.3747 120.478L28.9697 127.32C27.7115 128.421 26.0601 129.317 24.0156 130.009C21.971 130.67 19.8478 131 17.646 131Z"/>
+                <path d="M33.2407 130.481V97.2159H49.2354C53.0099 97.2159 55.9195 98.1438 57.964 99.9998C60.04 101.824 61.078 104.372 61.078 107.644C61.078 110.129 60.4489 112.221 59.1908 113.919C57.964 115.586 56.1711 116.75 53.812 117.411C55.5735 117.883 56.9889 119.094 58.0584 121.044L63.2484 130.481H53.7177L47.9615 119.912C47.584 119.251 47.0965 118.779 46.4988 118.496C45.9327 118.213 45.2721 118.071 44.5172 118.071H41.9222V130.481H33.2407ZM41.9222 111.937H47.6784C51.1069 111.937 52.8212 110.585 52.8212 107.88C52.8212 105.206 51.1069 103.869 47.6784 103.869H41.9222V111.937Z"/>
+                <path d="M82.3652 131C78.9995 131 76.0428 130.292 73.495 128.877C70.9786 127.43 69.0127 125.416 67.5972 122.837C66.1818 120.258 65.4741 117.254 65.4741 113.825C65.4741 110.365 66.1661 107.361 67.5501 104.813C68.9655 102.233 70.9472 100.236 73.495 98.8201C76.0428 97.4046 78.9995 96.6968 82.3652 96.6968C85.7308 96.6968 88.6718 97.4046 91.1882 98.8201C93.736 100.236 95.7176 102.233 97.1331 104.813C98.5485 107.361 99.2563 110.365 99.2563 113.825C99.2563 117.254 98.5485 120.258 97.1331 122.837C95.7176 125.416 93.736 127.43 91.1882 128.877C88.6718 130.292 85.7308 131 82.3652 131ZM82.3652 123.734C84.8186 123.734 86.7374 122.869 88.1214 121.138C89.5368 119.377 90.2445 116.939 90.2445 113.825C90.2445 110.711 89.5525 108.289 88.1685 106.558C86.7845 104.828 84.8501 103.963 82.3652 103.963C79.8802 103.963 77.9458 104.828 76.5618 106.558C75.1778 108.289 74.4858 110.711 74.4858 113.825C74.4858 116.939 75.1778 119.377 76.5618 121.138C77.9458 122.869 79.8802 123.734 82.3652 123.734Z"/>
+                <path d="M104.382 130.481V97.2159H113.064V130.481H104.382Z"/>
+                <path d="M131.442 131C128.831 131 126.331 130.685 123.94 130.056C121.55 129.396 119.584 128.531 118.042 127.461L120.449 120.714C121.896 121.689 123.594 122.46 125.544 123.026C127.494 123.592 129.46 123.875 131.442 123.875C133.518 123.875 134.965 123.608 135.783 123.073C136.632 122.507 137.057 121.815 137.057 120.997C137.057 120.273 136.758 119.691 136.16 119.251C135.594 118.811 134.572 118.433 133.093 118.119L127.573 116.939C121.597 115.649 118.609 112.519 118.609 107.549C118.609 105.379 119.19 103.476 120.354 101.84C121.55 100.204 123.201 98.946 125.308 98.0652C127.416 97.153 129.869 96.6968 132.669 96.6968C134.965 96.6968 137.135 97.0271 139.18 97.6877C141.256 98.3168 142.939 99.1819 144.228 100.283L141.822 106.606C140.627 105.725 139.243 105.048 137.67 104.577C136.097 104.073 134.399 103.822 132.574 103.822C130.813 103.822 129.46 104.136 128.517 104.765C127.573 105.363 127.101 106.149 127.101 107.125C127.101 107.817 127.384 108.383 127.951 108.823C128.517 109.264 129.523 109.641 130.97 109.956L136.443 111.135C142.514 112.425 145.549 115.476 145.549 120.289C145.549 122.46 144.968 124.347 143.804 125.951C142.64 127.556 141.004 128.798 138.897 129.679C136.789 130.56 134.304 131 131.442 131Z"/>
+                <path d="M162.175 131C159.564 131 157.063 130.685 154.673 130.056C152.282 129.396 150.316 128.531 148.775 127.461L151.181 120.714C152.628 121.689 154.327 122.46 156.277 123.026C158.227 123.592 160.193 123.875 162.175 123.875C164.251 123.875 165.698 123.608 166.515 123.073C167.365 122.507 167.789 121.815 167.789 120.997C167.789 120.273 167.491 119.691 166.893 119.251C166.327 118.811 165.304 118.433 163.826 118.119L158.306 116.939C152.329 115.649 149.341 112.519 149.341 107.549C149.341 105.379 149.923 103.476 151.087 101.84C152.282 100.204 153.934 98.946 156.041 98.0652C158.149 97.153 160.602 96.6968 163.401 96.6968C165.698 96.6968 167.868 97.0271 169.913 97.6877C171.989 98.3168 173.671 99.1819 174.961 100.283L172.555 106.606C171.359 105.725 169.975 105.048 168.403 104.577C166.83 104.073 165.132 103.822 163.307 103.822C161.546 103.822 160.193 104.136 159.249 104.765C158.306 105.363 157.834 106.149 157.834 107.125C157.834 107.817 158.117 108.383 158.683 108.823C159.249 109.264 160.256 109.641 161.703 109.956L167.176 111.135C173.247 112.425 176.282 115.476 176.282 120.289C176.282 122.46 175.7 124.347 174.536 125.951C173.373 127.556 171.737 128.798 169.629 129.679C167.522 130.56 165.037 131 162.175 131Z"/>
+                <path d="M176.167 130.481L191.737 97.2159H198.578L214.148 130.481H205.467L202.589 123.734H187.726L184.848 130.481H176.167ZM195.087 106.275L190.557 117.081H199.711L195.181 106.275H195.087Z"/>
+                <path d="M216.163 130.481V97.2159H222.532L237.819 116.278V97.2159H245.84V130.481H239.518L224.231 111.418V130.481H216.163Z"/>
+                <path d="M259.75 130.481V104.294H249.181V97.2159H279V104.294H268.431V130.481H259.75Z"/>
+            </svg>
+        </div>
+        <div class="basis-2/3">&nbsp;
+                <button id="burger_close" type="button" class="float-right focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <span class="sr-only">Close menu</span>
+                  <!-- Heroicon name: outline/x -->
+                  <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+        </div>
+    </header>
+    
+    <ul class="text-white text-center w-full text-3xl uppercase mt-16">
+        <li class="my-8"><a href="./qui-suis-je.html">Qui suis-je ?</a></li>
+        <li class="my-8"><a href="./nos-priorites.html">Nos priorités</a></li>
+        <li class="my-8"><a href="./soutenir.html">Soutenir</a></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    let d = document;
+    let burger = d.querySelector('a[href="#burger"]');
+    burger.setAttribute('role', 'button');
+    let burger_close = d.querySelector('#burger_close');
+    let burger_panel = d.querySelector('#burger_menu');
+    burger.addEventListener('click', function(e){
+        e.preventDefault();
+        burger_panel.classList.remove('hidden');
+    });
+    burger_close.addEventListener('click', function(e){
+        e.preventDefault();
+        burger_panel.classList.add('hidden');
+    });
+</script>
 </body>
 </html>
