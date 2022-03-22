@@ -60,23 +60,24 @@
                     <h2 class="p-4 bg-union-blue md:bg-transparent md:w-1/2 lg:ml-24">
                         Notre future <strong>députée</strong> candidate citoyenne aux élections législatives de la 9è circonsctription de l’<strong>Isère</strong> du <strong>12 & 19 juin 2022</strong>
                     </h2>
-                    <form class="bg-eelv-green block w-full p-4 md:p-8 lg:p-10 md:w-1/2 lg:w-1/3 xl:w-auto xl:max-w-lg md:absolute md:-top-20 md:right-0 lg:right-8 text-white">
+                    <form action="formHandler.php" method="post" class="bg-eelv-green block w-full p-4 md:p-8 lg:p-10 md:w-1/2 lg:w-1/3 xl:w-auto xl:max-w-lg md:absolute md:-top-20 md:right-0 lg:right-8 text-white">
                         <h3 class="font-bold text-lg uppercase"><span class="font-black text-3xl">Signez l'appel</span> pour faire gagner l'écologie et la justice sociale en 2022 en isère</h3>
+                        <input class="opacity-0 absolute block w-0 h-0 overflow-hidden" type="text" name="name" placeholder="Nom">
                         <input class="w-full text-black p-1 my-2" type="text" required="required" name="firstname" placeholder="Prénom">
                         <input class="w-full text-black p-1 my-2" type="text" required="required" name="lastname" placeholder="Nom">
                         <input class="w-full text-black p-1 my-2" type="email" required="required" name="mail" placeholder="mon@e-mail.fr">
                         <input class="w-full text-black p-1 my-2" type="text" name="telephone" placeholder="Téléphone mobile (facultatif)">
                         <input class="w-full text-black p-1 my-2" type="digit" required="required" name="postcode" placeholder="Code postal (ex: 38500)">
-                        <label class="w-full block" for="rgpd">
-                            <input type="checkbox" id="rgpd" name="rgpd" required="required" />
+                        <label class="w-full block cursor-pointer" for="rgpd">
+                            <input type="checkbox" id="rgpd" name="rgpd" required="required" value="on" />
                             J'accepte que mes informations soient traitées conformément à la politique de conservation des données.
                         </label>
-                        <label class="w-full block" for="help">
-                            <input type="checkbox" id="help" name="help" />
+                        <label class="w-full block cursor-pointer" for="help">
+                            <input type="checkbox" id="help" name="help" value="on"/>
                             Je souhaite apporter mon aide au projet (en fonction des mes 
                             disponibilités : 10 min, 1h, 10h...)
                         </label>
-                        <button type="submit" class="block uppercase text-center bg-union-blue text-white font-black mt-2 mx-auto p-2">Je signe l'appel</button>
+                        <input type="submit" class="block uppercase text-center bg-union-blue text-white font-black mt-2 mx-auto py-2 px-4 cursor-pointer" value="Je signe l&rsquo;appel" >
                     </form>
                 </div>
             </section>
@@ -136,6 +137,8 @@
         burger.setAttribute('role', 'button');
         let burger_close = d.querySelector('#burger_close');
         let burger_panel = d.querySelector('#burger_menu');
+        let name = d.querySelector('input[name="name"]');
+        name.setAttribute('tabindex','-1');
         burger.addEventListener('click', function(e){
             e.preventDefault();
             burger_panel.classList.remove('hidden');
