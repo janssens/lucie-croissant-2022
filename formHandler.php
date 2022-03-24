@@ -86,7 +86,7 @@ class Entry{
 if (isset($_POST['name'])&&strlen($_POST['name'])){
     return '';
 }else{
-    $filename = "data.csv";
+    $filename = "data/data.csv";
     $data = [];
     if (file_exists($filename)){
         //Open the file.
