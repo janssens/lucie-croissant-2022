@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <link href="./dist/fonts/stylesheet.css" rel="stylesheet">
+    <style>
+        .autogrow {
+            display: grid;
+        }
+        .autogrow::after {
+            content: attr(data-replicated-value) " ";
+            white-space: pre-wrap;
+            visibility: hidden;
+        }
+        .autogrow > textarea {
+            resize: none;
+        }
+        .autogrow > textarea,
+        .autogrow::after {
+            /* Add textarea styles here so that the textarea and div look the same */
+            grid-area: 1 / 1 / 2 / 2;
+        }
+    </style>
+</head>
+<body class="bg-white text-white font-sans bg-gray-500 md:bg-white">
+<div class="min-h-screen">
+    <header class="bg-white md:bg-union-blue relative overflow-hidden">
+        <div class="max-w-7xl mx-auto h-48 md:h-96 p-4 grid grid-cols-2 md:grid-cols-3 relative">
+            <div class="w-full max-h-full">
+                <span class="sr-only">Lucie Croissant</span>
+                <a href="/"><svg viewBox="0 0 279 131" class="h-100 fill-union-blue md:fill-white max-w-sm" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M198.752 67.5683V54.1678L195.087 1.03806H219.5L216.115 46.5395H198.226L198.752 54.1678H216.115V67.5683H198.752Z" fill="#409682"/>
+                    <path d="M3.86891 67.5683V1.03806H21.2318V53.1298H50.8621V67.5683H3.86891Z"/>
+                    <path d="M88.104 68.6063C78.416 68.6063 70.9927 66.1527 65.8342 61.2455C60.7385 56.3383 58.1907 49.009 58.1907 39.2575V1.03806H75.5537V39.4463C75.5537 44.2905 76.6231 47.9395 78.762 50.3931C80.9009 52.8467 84.0149 54.0735 88.104 54.0735C92.1302 54.0735 95.2128 52.8467 97.3517 50.3931C99.4906 47.9395 100.56 44.2905 100.56 39.4463V1.03806H117.64V39.2575C117.64 49.009 115.124 56.3383 110.091 61.2455C105.121 66.1527 97.792 68.6063 88.104 68.6063Z"/>
+                    <path d="M165.204 68.6063C157.843 68.6063 151.521 67.1908 146.237 64.3597C140.952 61.5286 136.895 57.5337 134.064 52.3748C131.296 47.216 129.912 41.1764 129.912 34.256C129.912 27.3356 131.296 21.3274 134.064 16.2315C136.895 11.0726 140.952 7.07768 146.237 4.24661C151.521 1.41554 157.843 0 165.204 0C169.607 0 173.854 0.69204 177.943 2.07612C182.032 3.39729 185.335 5.15884 187.851 7.36079L182.661 21.0443C179.893 19.0311 177.125 17.5526 174.357 16.609C171.589 15.6023 168.758 15.099 165.864 15.099C160.014 15.099 155.61 16.7662 152.653 20.1006C149.697 23.3721 148.218 28.0905 148.218 34.256C148.218 40.4843 149.697 45.2657 152.653 48.6001C155.61 51.8715 160.014 53.5073 165.864 53.5073C168.758 53.5073 171.589 53.0354 174.357 52.0917C177.125 51.0851 179.893 49.5752 182.661 47.562L187.851 61.2455C185.335 63.4475 182.032 65.2405 177.943 66.6246C173.854 67.9457 169.607 68.6063 165.204 68.6063Z"/>
+                    <path d="M230.508 67.5683V1.03806H277.501V14.4385H247.116V27.0839H275.331V40.4843H247.116V54.1678H277.501V67.5683H230.508Z"/>
+                    <path d="M17.646 131C13.9658 131 10.8046 130.292 8.16246 128.877C5.52028 127.461 3.49146 125.464 2.076 122.884C0.692001 120.305 0 117.285 0 113.825C0 110.365 0.692001 107.361 2.076 104.813C3.49146 102.233 5.52028 100.236 8.16246 98.8201C10.8046 97.4046 13.9658 96.6968 17.646 96.6968C19.8478 96.6968 21.971 97.0429 24.0156 97.7349C26.0601 98.3955 27.7115 99.2763 28.9697 100.377L26.3747 107.219C24.9907 106.212 23.6067 105.473 22.2227 105.001C20.8387 104.498 19.4232 104.246 17.9763 104.246C15.051 104.246 12.8492 105.08 11.3708 106.747C9.89246 108.383 9.15328 110.742 9.15328 113.825C9.15328 116.939 9.89246 119.33 11.3708 120.997C12.8492 122.633 15.051 123.45 17.9763 123.45C19.4232 123.45 20.8387 123.215 22.2227 122.743C23.6067 122.239 24.9907 121.484 26.3747 120.478L28.9697 127.32C27.7115 128.421 26.0601 129.317 24.0156 130.009C21.971 130.67 19.8478 131 17.646 131Z"/>
+                    <path d="M33.2407 130.481V97.2159H49.2354C53.0099 97.2159 55.9195 98.1438 57.964 99.9998C60.04 101.824 61.078 104.372 61.078 107.644C61.078 110.129 60.4489 112.221 59.1908 113.919C57.964 115.586 56.1711 116.75 53.812 117.411C55.5735 117.883 56.9889 119.094 58.0584 121.044L63.2484 130.481H53.7177L47.9615 119.912C47.584 119.251 47.0965 118.779 46.4988 118.496C45.9327 118.213 45.2721 118.071 44.5172 118.071H41.9222V130.481H33.2407ZM41.9222 111.937H47.6784C51.1069 111.937 52.8212 110.585 52.8212 107.88C52.8212 105.206 51.1069 103.869 47.6784 103.869H41.9222V111.937Z"/>
+                    <path d="M82.3652 131C78.9995 131 76.0428 130.292 73.495 128.877C70.9786 127.43 69.0127 125.416 67.5972 122.837C66.1818 120.258 65.4741 117.254 65.4741 113.825C65.4741 110.365 66.1661 107.361 67.5501 104.813C68.9655 102.233 70.9472 100.236 73.495 98.8201C76.0428 97.4046 78.9995 96.6968 82.3652 96.6968C85.7308 96.6968 88.6718 97.4046 91.1882 98.8201C93.736 100.236 95.7176 102.233 97.1331 104.813C98.5485 107.361 99.2563 110.365 99.2563 113.825C99.2563 117.254 98.5485 120.258 97.1331 122.837C95.7176 125.416 93.736 127.43 91.1882 128.877C88.6718 130.292 85.7308 131 82.3652 131ZM82.3652 123.734C84.8186 123.734 86.7374 122.869 88.1214 121.138C89.5368 119.377 90.2445 116.939 90.2445 113.825C90.2445 110.711 89.5525 108.289 88.1685 106.558C86.7845 104.828 84.8501 103.963 82.3652 103.963C79.8802 103.963 77.9458 104.828 76.5618 106.558C75.1778 108.289 74.4858 110.711 74.4858 113.825C74.4858 116.939 75.1778 119.377 76.5618 121.138C77.9458 122.869 79.8802 123.734 82.3652 123.734Z"/>
+                    <path d="M104.382 130.481V97.2159H113.064V130.481H104.382Z"/>
+                    <path d="M131.442 131C128.831 131 126.331 130.685 123.94 130.056C121.55 129.396 119.584 128.531 118.042 127.461L120.449 120.714C121.896 121.689 123.594 122.46 125.544 123.026C127.494 123.592 129.46 123.875 131.442 123.875C133.518 123.875 134.965 123.608 135.783 123.073C136.632 122.507 137.057 121.815 137.057 120.997C137.057 120.273 136.758 119.691 136.16 119.251C135.594 118.811 134.572 118.433 133.093 118.119L127.573 116.939C121.597 115.649 118.609 112.519 118.609 107.549C118.609 105.379 119.19 103.476 120.354 101.84C121.55 100.204 123.201 98.946 125.308 98.0652C127.416 97.153 129.869 96.6968 132.669 96.6968C134.965 96.6968 137.135 97.0271 139.18 97.6877C141.256 98.3168 142.939 99.1819 144.228 100.283L141.822 106.606C140.627 105.725 139.243 105.048 137.67 104.577C136.097 104.073 134.399 103.822 132.574 103.822C130.813 103.822 129.46 104.136 128.517 104.765C127.573 105.363 127.101 106.149 127.101 107.125C127.101 107.817 127.384 108.383 127.951 108.823C128.517 109.264 129.523 109.641 130.97 109.956L136.443 111.135C142.514 112.425 145.549 115.476 145.549 120.289C145.549 122.46 144.968 124.347 143.804 125.951C142.64 127.556 141.004 128.798 138.897 129.679C136.789 130.56 134.304 131 131.442 131Z"/>
+                    <path d="M162.175 131C159.564 131 157.063 130.685 154.673 130.056C152.282 129.396 150.316 128.531 148.775 127.461L151.181 120.714C152.628 121.689 154.327 122.46 156.277 123.026C158.227 123.592 160.193 123.875 162.175 123.875C164.251 123.875 165.698 123.608 166.515 123.073C167.365 122.507 167.789 121.815 167.789 120.997C167.789 120.273 167.491 119.691 166.893 119.251C166.327 118.811 165.304 118.433 163.826 118.119L158.306 116.939C152.329 115.649 149.341 112.519 149.341 107.549C149.341 105.379 149.923 103.476 151.087 101.84C152.282 100.204 153.934 98.946 156.041 98.0652C158.149 97.153 160.602 96.6968 163.401 96.6968C165.698 96.6968 167.868 97.0271 169.913 97.6877C171.989 98.3168 173.671 99.1819 174.961 100.283L172.555 106.606C171.359 105.725 169.975 105.048 168.403 104.577C166.83 104.073 165.132 103.822 163.307 103.822C161.546 103.822 160.193 104.136 159.249 104.765C158.306 105.363 157.834 106.149 157.834 107.125C157.834 107.817 158.117 108.383 158.683 108.823C159.249 109.264 160.256 109.641 161.703 109.956L167.176 111.135C173.247 112.425 176.282 115.476 176.282 120.289C176.282 122.46 175.7 124.347 174.536 125.951C173.373 127.556 171.737 128.798 169.629 129.679C167.522 130.56 165.037 131 162.175 131Z"/>
+                    <path d="M176.167 130.481L191.737 97.2159H198.578L214.148 130.481H205.467L202.589 123.734H187.726L184.848 130.481H176.167ZM195.087 106.275L190.557 117.081H199.711L195.181 106.275H195.087Z"/>
+                    <path d="M216.163 130.481V97.2159H222.532L237.819 116.278V97.2159H245.84V130.481H239.518L224.231 111.418V130.481H216.163Z"/>
+                    <path d="M259.75 130.481V104.294H249.181V97.2159H279V104.294H268.431V130.481H259.75Z"/>
+                </svg>
+                </a>
+            </div>
+            <img src="./dist/lucie_mobile@mathieu.berenger.png" class="absolute bottom-0 left-1/2 -ml-12 md:hidden" width="220px" height="175px" alt="lucie croissant - candidate législatives 2022">
+            <div class="w-full md:col-span-2 relative">
+                <nav class="hidden md:block">
+                    <ul class="list-none text-lg uppercase text-right font-light">
+                        <li class="inline mx-3"><a class="hover:underline" href="./qui-suis-je.html">Qui suis-je ?</a></li>
+                        <li class="inline mx-3"><a class="hover:underline" href="./nos-priorites.html">Nos priorités</a></li>
+                        <li class="inline mx-3"><a class="hover:underline" href="./don.html">Faire un don</a></li>
+                        <li class="inline mx-3"><a class="hover:underline" href="./rejoindre.html">Nous rejoindre</a></li>
+                        <li class="mx-3 hidden lg:inline"><a href="https://www.facebook.com/Lucie-Croissant-L%C3%A9gislatives-2022-104476105520908"><span class="sr-only" >Facebook</span>
+                            <svg class="h-4 w-4 inline" style="fill: currentColor" xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
+                                        <g id="XMLID_834_">
+                                            <path id="XMLID_835_" d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
+                                                c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
+                                                V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545
+                                                C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703
+                                                c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z"/>
+                                        </g>
+                                    </svg></a>
+                        </li>
+                        <li class="mx-3 hidden lg:inline"><a href="https://www.instagram.com/L.Croissant_2022/"><span class="sr-only">Instagram</span>
+                            <svg class="h-5 w-5 inline" style="fill: currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
+                                <g>
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path fill-rule="nonzero" d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z"/>
+                                </g>
+                            </svg></a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#burger" class="absolute top-0 right-0 md:hidden focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <span class="sr-only">Open menu</span>
+                    <div class="space-y-2">
+                        <div class="w-8 h-0.5 bg-union-blue"></div>
+                        <div class="w-8 h-0.5 bg-union-blue"></div>
+                        <div class="w-8 h-0.5 bg-union-blue"></div>
+                    </div>
+                </a>
+            </div>
+            <div class="hidden md:block font-serif absolute bottom-1/2 left-1/2 w-1/2">
+                <p class="lg:text-lg">Je souhaite porter pour vous la voix de l’ <strong>écologie</strong>, de la <strong>justice sociale</strong> et de la <strong>démocratie</strong>. Ensemble nous pouvons faire différemment.</p>
+            </div>
+            <svg class="hidden md:block absolute bottom-1/2 left-1/2 -ml-24 -mb-24 h-56 w-56" height="20px" width="20px" fill="white" viewBox="0 -0.08 20 20" id="Cap" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                <path id="path2" d="m 4.9276703,8.8730852 -0.017514,6.7968368 c -3.435e-4,0.1522 0.090628,0.28953 0.2304688,0.349609 0.049553,0.0095 0.098885,0.0095 0.1484375,0 0.099813,-0.0011 0.1961292,-0.04389 0.2617187,-0.11914 C 6.2468508,15.194377 7.4651977,14.190924 8,14.179688 l 11.78578,-0.005 c 0.01109,-0.357135 0.0048,-0.731117 -0.75879,-0.72452 L 8,13.460938 c -0.71,0 -1.6898436,0.748126 -2.3398438,1.328124 V 10.033203 C 5.6563166,8.8761497 5.2636558,8.8723023 4.9276703,8.8730852 Z"
+                      transform="translate(0,-0.08)" />
+            </svg>
+            <img src="./dist/lucie_desktop@mathieu.berenger.png" class="absolute hidden md:block left-0 lg:ml-80 md:-bottom-8 lg:bottom-0 " width="350px" alt="lucie croissant - candidate législatives 2022">
+        </div>
+    </header>
+    <section class="md:bg-white md:text-union-blue">
+        <div class="relative max-w-7xl mx-auto md:pt-8">
+            <div class="p-4 bg-union-blue md:bg-transparent md:text-lg md:hidden">
+                Notre future <strong>députée</strong> candidate citoyenne aux élections législatives de la
+                9è circonsctription de l’<strong>Isère</strong> du <strong>12 & 19 juin 2022</strong>
+            </div>
+            <div class="p-4 bg-eelv-green text-white font-sans md:bg-transparent md:text-union-blue">
+                <div class="text-2xl"><h1 class="inline">Nos priorités</h1> en raccourci :</div>
+                <ul class="list-disc pl-8">
+                    <li>TVA à 0% sur l’alimentation biologique</li>
+                    <li>Une Vraie Loi climat</li>
+                    <li>Volumes de base (eau/ électricité / gaz) gratuit, puis ensuite tarifs progressifs</li>
+                    <li>Diminution du temps de travail (convention citoyenne sur le temps de travail )</li>
+                    <li>Hausse du smic et bas salaires</li>
+                    <li>Convention citoyenne pour le renouveau démocratique</li>
+                    <li>du bio et locale dans les cantines 2027</li>
+                </ul>
+            </div>
+            <div class="p-4 text-center text-2xl text-white md:text-gray-700 italic font-serif font-light ">En détails :</div>
+            <h2 class="p-4 bg-union-blue text-2xl uppercase text-white font-serif md:bg-transparent md:text-union-blue">
+                Pour une république <strong>écologique</strong>
+            </h2>
+            <div class="p-4 bg-white text-union-blue font-sans md:bg-transparent">
+                <h3 class="font-serif text-2xl text-eelv-green">Rupture 1</h3>
+                <p class="my-6">
+                    Une vraie loi Climat pour reconvertir notre ÉCONOMIE et ACCOMPAGNER nos entreprises dans la transition</p>
+                <ul class="list-disc pl-8 mb-3">
+                    <li>Reprendre les propositions de la Convention Citoyenne pour le Climat</li>
+                    <li>avec notamment la mise en place d’un grand plan de rénovation thermique des bâtiments (10 Md€/ an,
+                        réduction de 50% de la consommation d’énergie // 5 millions de passoires thermiques rénovées en 10 ans)</li>
+                    <li>à travers une relance verte et socialement juste, porteuse de centaine de milliers d’emplois non délocalisables.</li>
+                    <li>Cet investissement permettra une baisse des factures énergétiques, une amélioration du confort et une nouvelle politique d’aménagement du territoire portée par les collectivités locales.</li>
+                </ul>
+                <h3 class="font-serif text-2xl text-eelv-green">Rupture 2</h3>
+                <p class="my-6">
+                    Une grande loi de transition alimentaire vers une agriculture paysanne et écologique. <br>
+                    Accompagner les agriculteurs et agricultrices dans leur reconversion vers une agriculture paysanne notamment par :</p>
+                <ul class="list-disc pl-8 mb-3">
+                    <li>la reprise par la Caisse des dépôts et Consignations de la dette des agriculteurs et agricultrices
+                        qui passent à une agriculture bio</li>
+                    <li>la protection des agriculteurs et agricultrices de la mondialisation en refusant les traités de
+                        libre-échange ne respectant pas les accords de Paris ;</li>
+                    <li>réforme de la PAC (fin de l’élevage intensif,
+                        relocalisation de la production,
+                        pour faire nos paysans dignement avec la fin des aides à la surface pour passer à des aides à l’emploi)</li>
+                    <li>100% bio et local en 2027 dans les cantines</li>
+                    <li>d’ici 2025, fin de l’élevage industriel (- exportation animaux, + culture protéine végétale)</li>
+                </ul>
+
+                <h3 class="font-serif text-2xl text-eelv-green">Rupture 3</h3>
+                <p class="my-6">Une fiscalité plus juste et écologique</p>
+                <ul class="list-disc pl-8 mb-3">
+                    <li>ISF Climatique (sur les patrimoines supérieurs à 2 M€) qui rapportera au moins 15 Milliard€</li>
+                    <li>TVA à 5,5 % pour les transports collectifs et les services de réparation, à 0 % pour l’alimentation biologique. À 20% pour les transports polluants</li>
+                    <li>Imposer les multinationales qui ont une activité en France. (harmonisation en Europe avec 25% minimum sur les multinationales)</li>
+                    <li>Prélever un impôt sur le revenu (IR) plus progressif.</li>
+                    <li>Prise en compte des critères climatiques et sociaux pour la mise en place des réformes (réduction des inégalités économiques et égalités femme -homme, de GES, de destruction d’espace naturels, de satisfaction, d’espérance de vie, de réussite scolaire )</li>
+                </ul>
+
+            </div>
+            <h2 class="p-4 bg-union-blue text-2xl uppercase text-white font-serif md:bg-transparent md:text-union-blue">
+                Pour une république <strong>sociale</strong>
+            </h2>
+            <div class="p-4 bg-white text-union-blue font-sans md:bg-transparent">
+                <h3 class="font-serif text-2xl text-eelv-green">Rupture 4</h3>
+                <p class="my-6">PERMETTRE À CHACUN ET CHACUNE DE COUVRIR SES BESOINS ESSENTIELS</p>
+                <ul class="list-disc pl-8 mb-3">
+                    <li>Mettre en place un revenu citoyen dès 18 ans (personne ne vivra avec moins de 918 € mensuel) 740 €+ aides</li>
+                    <li>assurer un volume de base gratuit pour l'eau / gaz / électricité.</li>
+                </ul>
+                <h3 class="font-serif text-2xl text-eelv-green">Rupture 5</h3>
+                <p class="my-6">Un emploi et un salaire justes pour toutes et tous</p>
+                <ul class="list-disc pl-8 mb-3">
+                    <li>favoriser une forme de diminution du temps de travail (convention citoyenne sur le temps de travail )</li>
+                    <li>Pour un travail digne : rehausser le SMIC de 10% et l’ensemble des bas salaires</li>
+                    <li>réduire les écarts de salaires (revenues supérieurs à 20 SMIC non déductibles d’impôt sur les sociétés )</li>
+                    <li>Renforcer l’égalité salariale entre femmes et hommes et instaurer un congé parentalité égalitaire et obligatoire. (16 semaines)</li>
+                </ul>
+                <h3 class="font-serif text-2xl text-eelv-green">Rupture 6</h3>
+                <p class="my-6">INVESTIR MASSIVEMENT DANS LE SOCIAL, PRIORITAIREMENT DANS LA SANTÉ ET L'ÉDUCATION</p>
+                <ul class="list-disc pl-8 mb-3">
+                    <li>Augmenter les salaires des professionnel.le.s  de l'éducation et de la santé</li>
+                    <li>Lutter contre les déserts médicaux (dernière année d’internat et 2 premières années d’exercice devront être exercées dans les zones en manque)</li>
+                    <li>Investir dans le système hospitalier et les métiers du soin, essentiellement assumés par des femmes.</li>
+                </ul>
+            </div>
+            <h2 class="p-4 bg-union-blue text-2xl uppercase text-white font-serif md:bg-transparent md:text-union-blue">
+                Pour une république <strong>démocratique</strong>
+            </h2>
+            <div class="p-4 bg-white text-union-blue font-sans md:bg-transparent">
+                <h3 class="font-serif text-2xl text-eelv-green">Rupture 7</h3>
+                <p class="my-6">RESTAURER LA CONFIANCE DANS NOTRE DÉMOCRATIE / Vers une 6e République</p>
+                <ul class="list-disc pl-8 mb-3">
+                    <li>Convention Citoyenne pour le renouveau démocratique (comment rééquilibrer les pouvoirs du ou de la présidente et du Parlement, permettre l’intervention populaire..)</li>
+                    <li>garantir l’indépendance des médias</li>
+                    <li>loi de séparation Etat – lobbys</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="text-gray-300 md:bg-union-blue md:py-32">
+    <div class="px-4 py-16 bg-union-blue text-white w-full md:hidden font-serif text-center text-2xl text-white">
+        &ldquo; Ensemble pour faire gagner l'<strong>écologie</strong> et la <strong>justice sociale</strong> &rdquo;
+    </div>
+    <div class="p-4 md:grid md:grid-cols-4 md:gap-2 grid-cols-1">
+        <nav id="burger" class="text-center uppercase pt-4 col-span-2 mb-8">
+            <ul>
+                <li><a class="hover:underline" href="./qui-suis-je.html">Qui suis-je ?</a></li>
+                <li><a class="hover:underline" href="./nos-priorites.html">Nos priorités</a></li>
+                <li><a class="hover:underline" href="./don.html">Faire un don</a></li>
+                <li><a class="hover:underline" href="./rejoindre.html">Nous rejoindre</a></li>
+                <li><a class="hover:underline" href="./mentions_legales.html">Mentions légales</a></li>
+            </ul>
+        </nav>
+        <div class="pr-4">
+            Les cantons de la 9ème ciconscription de l'Isère : <br>
+            <ul class="font-serif italic text-sm pl-8">
+                <li>Pont-en-Royans</li>
+                <li>Rives</li>
+                <li>Saint-Marcellin</li>
+                <li>Tullins</li>
+                <li>Vinay</li>
+                <li>Voiron</li>
+            </ul>
+        </div>
+        <img src="./dist/circo.svg" alt="9eme ciconscription Isère" class="w-2/3 mx-auto">
+    </div>
+</footer>
+<div id="burger_menu" class="fixed top-0 left-0 right-0 bottom-0 bg-union-blue p-4 hidden md:hidden">
+    <header class="flex flex-row">
+        <div class="basis-1/3 w-1/3">
+            <span class="sr-only">Lucie Croissant</span>
+            <svg viewBox="0 0 279 131" class="fill-white w-full" xmlns="http://www.w3.org/2000/svg">
+                <path d="M198.752 67.5683V54.1678L195.087 1.03806H219.5L216.115 46.5395H198.226L198.752 54.1678H216.115V67.5683H198.752Z" fill="#409682"/>
+                <path d="M3.86891 67.5683V1.03806H21.2318V53.1298H50.8621V67.5683H3.86891Z"/>
+                <path d="M88.104 68.6063C78.416 68.6063 70.9927 66.1527 65.8342 61.2455C60.7385 56.3383 58.1907 49.009 58.1907 39.2575V1.03806H75.5537V39.4463C75.5537 44.2905 76.6231 47.9395 78.762 50.3931C80.9009 52.8467 84.0149 54.0735 88.104 54.0735C92.1302 54.0735 95.2128 52.8467 97.3517 50.3931C99.4906 47.9395 100.56 44.2905 100.56 39.4463V1.03806H117.64V39.2575C117.64 49.009 115.124 56.3383 110.091 61.2455C105.121 66.1527 97.792 68.6063 88.104 68.6063Z"/>
+                <path d="M165.204 68.6063C157.843 68.6063 151.521 67.1908 146.237 64.3597C140.952 61.5286 136.895 57.5337 134.064 52.3748C131.296 47.216 129.912 41.1764 129.912 34.256C129.912 27.3356 131.296 21.3274 134.064 16.2315C136.895 11.0726 140.952 7.07768 146.237 4.24661C151.521 1.41554 157.843 0 165.204 0C169.607 0 173.854 0.69204 177.943 2.07612C182.032 3.39729 185.335 5.15884 187.851 7.36079L182.661 21.0443C179.893 19.0311 177.125 17.5526 174.357 16.609C171.589 15.6023 168.758 15.099 165.864 15.099C160.014 15.099 155.61 16.7662 152.653 20.1006C149.697 23.3721 148.218 28.0905 148.218 34.256C148.218 40.4843 149.697 45.2657 152.653 48.6001C155.61 51.8715 160.014 53.5073 165.864 53.5073C168.758 53.5073 171.589 53.0354 174.357 52.0917C177.125 51.0851 179.893 49.5752 182.661 47.562L187.851 61.2455C185.335 63.4475 182.032 65.2405 177.943 66.6246C173.854 67.9457 169.607 68.6063 165.204 68.6063Z"/>
+                <path d="M230.508 67.5683V1.03806H277.501V14.4385H247.116V27.0839H275.331V40.4843H247.116V54.1678H277.501V67.5683H230.508Z"/>
+                <path d="M17.646 131C13.9658 131 10.8046 130.292 8.16246 128.877C5.52028 127.461 3.49146 125.464 2.076 122.884C0.692001 120.305 0 117.285 0 113.825C0 110.365 0.692001 107.361 2.076 104.813C3.49146 102.233 5.52028 100.236 8.16246 98.8201C10.8046 97.4046 13.9658 96.6968 17.646 96.6968C19.8478 96.6968 21.971 97.0429 24.0156 97.7349C26.0601 98.3955 27.7115 99.2763 28.9697 100.377L26.3747 107.219C24.9907 106.212 23.6067 105.473 22.2227 105.001C20.8387 104.498 19.4232 104.246 17.9763 104.246C15.051 104.246 12.8492 105.08 11.3708 106.747C9.89246 108.383 9.15328 110.742 9.15328 113.825C9.15328 116.939 9.89246 119.33 11.3708 120.997C12.8492 122.633 15.051 123.45 17.9763 123.45C19.4232 123.45 20.8387 123.215 22.2227 122.743C23.6067 122.239 24.9907 121.484 26.3747 120.478L28.9697 127.32C27.7115 128.421 26.0601 129.317 24.0156 130.009C21.971 130.67 19.8478 131 17.646 131Z"/>
+                <path d="M33.2407 130.481V97.2159H49.2354C53.0099 97.2159 55.9195 98.1438 57.964 99.9998C60.04 101.824 61.078 104.372 61.078 107.644C61.078 110.129 60.4489 112.221 59.1908 113.919C57.964 115.586 56.1711 116.75 53.812 117.411C55.5735 117.883 56.9889 119.094 58.0584 121.044L63.2484 130.481H53.7177L47.9615 119.912C47.584 119.251 47.0965 118.779 46.4988 118.496C45.9327 118.213 45.2721 118.071 44.5172 118.071H41.9222V130.481H33.2407ZM41.9222 111.937H47.6784C51.1069 111.937 52.8212 110.585 52.8212 107.88C52.8212 105.206 51.1069 103.869 47.6784 103.869H41.9222V111.937Z"/>
+                <path d="M82.3652 131C78.9995 131 76.0428 130.292 73.495 128.877C70.9786 127.43 69.0127 125.416 67.5972 122.837C66.1818 120.258 65.4741 117.254 65.4741 113.825C65.4741 110.365 66.1661 107.361 67.5501 104.813C68.9655 102.233 70.9472 100.236 73.495 98.8201C76.0428 97.4046 78.9995 96.6968 82.3652 96.6968C85.7308 96.6968 88.6718 97.4046 91.1882 98.8201C93.736 100.236 95.7176 102.233 97.1331 104.813C98.5485 107.361 99.2563 110.365 99.2563 113.825C99.2563 117.254 98.5485 120.258 97.1331 122.837C95.7176 125.416 93.736 127.43 91.1882 128.877C88.6718 130.292 85.7308 131 82.3652 131ZM82.3652 123.734C84.8186 123.734 86.7374 122.869 88.1214 121.138C89.5368 119.377 90.2445 116.939 90.2445 113.825C90.2445 110.711 89.5525 108.289 88.1685 106.558C86.7845 104.828 84.8501 103.963 82.3652 103.963C79.8802 103.963 77.9458 104.828 76.5618 106.558C75.1778 108.289 74.4858 110.711 74.4858 113.825C74.4858 116.939 75.1778 119.377 76.5618 121.138C77.9458 122.869 79.8802 123.734 82.3652 123.734Z"/>
+                <path d="M104.382 130.481V97.2159H113.064V130.481H104.382Z"/>
+                <path d="M131.442 131C128.831 131 126.331 130.685 123.94 130.056C121.55 129.396 119.584 128.531 118.042 127.461L120.449 120.714C121.896 121.689 123.594 122.46 125.544 123.026C127.494 123.592 129.46 123.875 131.442 123.875C133.518 123.875 134.965 123.608 135.783 123.073C136.632 122.507 137.057 121.815 137.057 120.997C137.057 120.273 136.758 119.691 136.16 119.251C135.594 118.811 134.572 118.433 133.093 118.119L127.573 116.939C121.597 115.649 118.609 112.519 118.609 107.549C118.609 105.379 119.19 103.476 120.354 101.84C121.55 100.204 123.201 98.946 125.308 98.0652C127.416 97.153 129.869 96.6968 132.669 96.6968C134.965 96.6968 137.135 97.0271 139.18 97.6877C141.256 98.3168 142.939 99.1819 144.228 100.283L141.822 106.606C140.627 105.725 139.243 105.048 137.67 104.577C136.097 104.073 134.399 103.822 132.574 103.822C130.813 103.822 129.46 104.136 128.517 104.765C127.573 105.363 127.101 106.149 127.101 107.125C127.101 107.817 127.384 108.383 127.951 108.823C128.517 109.264 129.523 109.641 130.97 109.956L136.443 111.135C142.514 112.425 145.549 115.476 145.549 120.289C145.549 122.46 144.968 124.347 143.804 125.951C142.64 127.556 141.004 128.798 138.897 129.679C136.789 130.56 134.304 131 131.442 131Z"/>
+                <path d="M162.175 131C159.564 131 157.063 130.685 154.673 130.056C152.282 129.396 150.316 128.531 148.775 127.461L151.181 120.714C152.628 121.689 154.327 122.46 156.277 123.026C158.227 123.592 160.193 123.875 162.175 123.875C164.251 123.875 165.698 123.608 166.515 123.073C167.365 122.507 167.789 121.815 167.789 120.997C167.789 120.273 167.491 119.691 166.893 119.251C166.327 118.811 165.304 118.433 163.826 118.119L158.306 116.939C152.329 115.649 149.341 112.519 149.341 107.549C149.341 105.379 149.923 103.476 151.087 101.84C152.282 100.204 153.934 98.946 156.041 98.0652C158.149 97.153 160.602 96.6968 163.401 96.6968C165.698 96.6968 167.868 97.0271 169.913 97.6877C171.989 98.3168 173.671 99.1819 174.961 100.283L172.555 106.606C171.359 105.725 169.975 105.048 168.403 104.577C166.83 104.073 165.132 103.822 163.307 103.822C161.546 103.822 160.193 104.136 159.249 104.765C158.306 105.363 157.834 106.149 157.834 107.125C157.834 107.817 158.117 108.383 158.683 108.823C159.249 109.264 160.256 109.641 161.703 109.956L167.176 111.135C173.247 112.425 176.282 115.476 176.282 120.289C176.282 122.46 175.7 124.347 174.536 125.951C173.373 127.556 171.737 128.798 169.629 129.679C167.522 130.56 165.037 131 162.175 131Z"/>
+                <path d="M176.167 130.481L191.737 97.2159H198.578L214.148 130.481H205.467L202.589 123.734H187.726L184.848 130.481H176.167ZM195.087 106.275L190.557 117.081H199.711L195.181 106.275H195.087Z"/>
+                <path d="M216.163 130.481V97.2159H222.532L237.819 116.278V97.2159H245.84V130.481H239.518L224.231 111.418V130.481H216.163Z"/>
+                <path d="M259.75 130.481V104.294H249.181V97.2159H279V104.294H268.431V130.481H259.75Z"/>
+            </svg>
+        </div>
+        <div class="basis-2/3">&nbsp;
+            <button id="burger_close" type="button" class="float-right focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <span class="sr-only">Close menu</span>
+                <!-- Heroicon name: outline/x -->
+                <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+    </header>
+    <ul class="text-white text-center w-full text-3xl uppercase mt-16">
+        <li class="my-8"><a href="./qui-suis-je.html">Qui suis-je ?</a></li>
+        <li class="my-8"><a href="./nos-priorites.html">Nos priorités</a></li>
+        <li class="my-8"><a class="hover:underline" href="./don.html">Faire un don</a></li>
+        <li class="my-8"><a class="hover:underline" href="./rejoindre.html">Nous rejoindre</a></li>
+    </ul>
+
+    <div class="absolute bottom-0 w-full left-0 right-0 text-center px-4 py-12">
+        <ul class="list-none">
+            <li class="mx-4 inline"><a href="https://www.facebook.com/Lucie-Croissant-L%C3%A9gislatives-2022-104476105520908"><span class="sr-only" >Facebook</span>
+                <svg class="h-6 w-8 inline" style="fill: currentColor" xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
+                                        <g id="XMLID_834_">
+                                            <path id="XMLID_835_" d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
+                                                c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
+                                                V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545
+                                                C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703
+                                                c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z"/>
+                                        </g>
+                                    </svg></a>
+            </li>
+            <li class="mx-4 inline"><a href="https://www.instagram.com/L.Croissant_2022/"><span class="sr-only">Instagram</span>
+                <svg class="h-8 w-8 inline" style="fill: currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
+                    <g>
+                        <path fill="none" d="M0 0h24v24H0z"/>
+                        <path fill-rule="nonzero" d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z"/>
+                    </g>
+                </svg></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    let d = document;
+    let burger = d.querySelector('a[href="#burger"]');
+    burger.setAttribute('role', 'button');
+    let burger_close = d.querySelector('#burger_close');
+    let burger_panel = d.querySelector('#burger_menu');
+
+    burger.addEventListener('click', function(e){
+        e.preventDefault();
+        d.querySelector('body').classList.add('overflow-y-hidden');
+        burger_panel.classList.remove('hidden');
+    });
+    burger_close.addEventListener('click', function(e){
+        e.preventDefault();
+        d.querySelector('body').classList.remove('overflow-y-hidden');
+        burger_panel.classList.add('hidden');
+    });
+</script>
+</body>
+</html>

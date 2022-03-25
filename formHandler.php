@@ -21,10 +21,6 @@ class Entry{
      */
     private $_help;
     /**
-     * @var boolean
-     */
-    private $_join_us;
-    /**
      * @var array
      */
     private $_extra;
@@ -39,7 +35,6 @@ class Entry{
         $this->_postcode = '';
         $this->_info = false;
         $this->_help = false;
-        $this->_join_us = false;
         $this->_extra = json_encode([]);
     }
 
@@ -56,10 +51,9 @@ class Entry{
         $this->_postcode = $post['postcode'];
         $this->_info = $post['more_info'] == 'on';
         $this->_help = $post['help'] == 'on';
-        $this->_join_us = $post['join_us'] == 'on';
         $extra = [];
         foreach ($post as $key => $val){
-            if (!in_array($key,['firstname','lastname','mail','telephone','postcode','help','more_indo','join_us','redirect_path'])){
+            if (!in_array($key,['firstname','lastname','mail','telephone','postcode','help','more_indo','redirect_path'])){
                 $extra[$key] = $val;
             }
         }
@@ -80,8 +74,7 @@ class Entry{
         $this->_postcode = $row[5];
         $this->_info = $row[6];
         $this->_help = $row[7];
-        $this->_join_us = $row[8];
-        $this->_extra = json_decode($row[9]);
+        $this->_extra = json_decode($row[8]);
         return $this;
     }
 
@@ -95,7 +88,6 @@ class Entry{
             $this->getPostcode(),
             $this->getInfo(),
             $this->getHelp(),
-            $this->getJoinUs(),
             json_encode($this->getExtra())
             ];
     }
@@ -136,16 +128,12 @@ class Entry{
         return $this->_help;
     }
 
-    public function getJoinUs(){
-        return $this->_join_us;
-    }
-
     public function getExtra(){
         return $this->_extra;
     }
 
     static function getHeader(){
-        return ["created_at","firstname","lastname",'mail','phone','postcode','info','help','join_us','extra'];
+        return ["created_at","firstname","lastname",'mail','phone','postcode','info','help','extra'];
     }
 
     /**
