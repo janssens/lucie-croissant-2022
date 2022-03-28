@@ -353,9 +353,6 @@
             });
         })
 
-        let countdown = d.querySelector('#countdown');
-        countdown.classList.remove('hidden');
-
         const MINUTES = 60;
         const HOURS = 60 * MINUTES;
         const DAYS = 24 * HOURS;
@@ -363,13 +360,23 @@
         let target = Date.parse('2022-06-12T08:00:00+0000') / 1000;
         let remain = target - Date.now() / 1000 ;
 
-        let days = Math.floor(remain/DAYS);
-        let days_container = d.querySelector('#jours');
-        days_container.textContent = days;
+        if (remain > 0){
+            let days = Math.floor(remain/DAYS);
+            let days_container = d.querySelector('#jours');
+            days_container.textContent = days;
 
-        let hours = Math.floor(remain % DAYS / HOURS)
-        let hours_container = d.querySelector('#heures');
-        hours_container.textContent = hours;
+            let hours = Math.floor(remain % DAYS / HOURS)
+            let hours_container = d.querySelector('#heures');
+            hours_container.textContent = hours;
+
+            let countdown = d.querySelector('#countdown');
+            countdown.classList.remove('hidden');
+        }else{
+            console.log(remain);
+            console.log('first round passed !');
+        }
+
+
     </script>
 </body>
 </html>
