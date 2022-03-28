@@ -492,11 +492,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -590,6 +585,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .block {
@@ -778,6 +777,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(63 38 130 / var(--tw-bg-opacity));
 }
 
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
 .bg-eelv-green {
   --tw-bg-opacity: 1;
   background-color: rgb(64 150 130 / var(--tw-bg-opacity));
@@ -807,6 +811,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .fill-white {
   fill: #fff;
+}
+
+.fill-eelv-green {
+  fill: #409682;
+}
+
+.fill-gray-300 {
+  fill: #d1d5db;
 }
 
 .p-4 {
@@ -887,6 +899,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-light {
@@ -1075,8 +1092,17 @@ Ensure the default browser behavior of the `hidden` attribute.
     background-color: transparent;
   }
 
+  .md\:bg-eelv-green {
+    --tw-bg-opacity: 1;
+    background-color: rgb(64 150 130 / var(--tw-bg-opacity));
+  }
+
   .md\:fill-white {
     fill: #fff;
+  }
+
+  .md\:fill-union-blue {
+    fill: #3F2682;
   }
 
   .md\:p-8 {
