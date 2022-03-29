@@ -7,9 +7,9 @@ menu:
         title: "Nos priorites"
         weight: 20
 ---
-{{% div class="bg-eelv-green text-white md:bg-transparent md:text-union-blue" %}}
-# Nos priorités en raccourci :
+{{% div class="eelv-green" %}}
 
+# Nos priorités en raccourci :
 - TVA à 0% sur l’alimentation biologique
 - Une Vraie Loi climat
 - Volumes de base (eau/ électricité / gaz) gratuit, puis ensuite tarifs progressifs
@@ -19,7 +19,7 @@ menu:
 - du bio et locale dans les cantines 2027 
 {{% /div %}}
   
-{{% div class="p-4 text-center text-2xl text-white md:text-gray-700 italic font-serif font-light"%}}
+{{% div class="more"%}}
 En détails :
 {{% /div %}}
 ## POUR UNE RÉPUBLIQUE __ÉCOLOGIQUE__

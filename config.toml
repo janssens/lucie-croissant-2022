@@ -3,5 +3,9 @@ title = "Lucie Croissant - Législatives 2022"
 DateFormat = "02 January 2006"
 theme = "lucie"
 [menu]
-[[menu.main]]
-[[menu.footer]]
+    [[menu.main]]
+    [[menu.footer]]
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

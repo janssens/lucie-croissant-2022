@@ -28,7 +28,12 @@
     font-style: normal;
 
 }
-
+.eelv-green {
+    @apply bg-eelv-green text-white md:bg-transparent md:text-union-blue;
+}
+.more{
+    @apply p-4 text-center text-2xl text-white bg-gray-700 md:text-gray-700 md:bg-transparent italic font-serif font-light;
+}
 #main a{
     @apply underline underline-offset-2 hover:text-eelv-green hover:decoration-union-blue;
 }

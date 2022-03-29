@@ -12,7 +12,7 @@ menu:
 
 ## Pourquoi ?
 
-C'est le plus souvent imperseptible mais toutes nos activités numériques consomment de l'énergie.
+C'est le plus souvent imperceptible mais toutes nos activités numériques consomment de l'énergie.
 Ainsi le secteur consomme jusqu&rsquo;à 10% de l'électricité mondiale.
 La production de cette énergie entame la bio-capacité de notre planète et sa faculté à nous héberger.  
 4 % des émissions de gaz à effet de serre sont ainsi imputées à l’industrie du web.
