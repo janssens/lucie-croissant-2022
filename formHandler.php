@@ -224,6 +224,21 @@ if (isset($_POST['name'])&&strlen($_POST['name'])){
         $entry->initFromPost($_POST);
         $csv = new EntryCsv($filename,true);
         $csv->addEntry($entry);
+
+        //mail
+        $to = "gaetan"."@".""."plop"."com".".fr";
+        $subject = "[Lucie] new form submit";
+
+        $message = print_r($entry->toArray(),true);
+
+        $header = "From:php@srv.plopcom.fr \r\n";
+        $header = "Reply-to:g@plopcom.fr \r\n";
+        //$header .= "Cc:afgh@somedomain.com \r\n";
+        $header .= "MIME-Version: 1.0\r\n";
+        $header .= "Content-type: text/html\r\n";
+        //
+
+        $retval = mail($to,$subject,$message,$header);
     }
 }
 
