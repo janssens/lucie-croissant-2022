@@ -1,5 +1,7 @@
 .idea
+.env
 node_modules/
 public/
 data/*.csv
 themes/lucie/static/img/*ORI.jpg
+/vendor/

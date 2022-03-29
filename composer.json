@@ -1,0 +1,16 @@
+{
+    "name": "janssens/lucie-croissant-2022",
+    "description": "website for lucie",
+    "type": "hugo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "janssens",
+            "email": "janssensgaetan@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.4",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
