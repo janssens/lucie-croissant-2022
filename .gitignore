@@ -1,4 +1,5 @@
 .idea
 node_modules/
+public/
 data/*.csv
-dist/*ORI.jpg
+themes/lucie/static/img/*ORI.jpg

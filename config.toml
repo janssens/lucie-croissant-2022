@@ -1,0 +1,11 @@
+baseURL = 'https://legislatives-2022.lucie-croissant.fr/'
+title = "Lucie Croissant - Législatives 2022"
+DateFormat = "02 January 2006"
+theme = "lucie"
+[menu]
+[[menu.main]]
+#    identifier = 'qui-suis-je'
+#    name = 'Qui suis-je ?'
+#    title = 'En savoir plus'
+#    weight = 30
+#    url = '/blog/'

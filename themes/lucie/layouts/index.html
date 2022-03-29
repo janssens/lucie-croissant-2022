@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="{{ site.LanguageCode }}">
+{{- partial "head.html" . -}}
+<body class="bg-white text-white font-sans bg-gray-500 md:bg-white">
+<div class="min-h-screen">
+    {{- partial "header.html" . -}}
+    <section class="md:bg-white md:text-union-blue">
+        <div class="relative max-w-7xl mx-auto md:pt-8">
+            <h2 class="p-4 bg-eelv-green md:bg-transparent md:w-1/2 md:text-lg">
+                Candidate citoyenne aux <strong>élections législatives</strong> de la
+                9è circonsctription de l’<strong>Isère</strong> du <strong>12 & 19 juin 2022</strong>
+            </h2>
+            <hr>
+            <div class="p-4 bg-white text-union-blue md:bg-transparent md:w-1/2" id="main">
+                <div id="appel_text" style="height: auto" class="h-56 overflow-hidden md:h-auto relative" >
+                    <div id="read_more_layer" class="bg-gradient-to-b from-transparent to-white absolute top-0 left-0 right-0 bottom-0 md:hidden hidden">
+                        <a class="absolute bottom-0 w-full text-center cursor-pointer font-sans uppercase italic" href="#appel_text" role="button" onclick="expend();">lire la suite &gt;</a>
+                    </div>
+                    {{ .Content }}
+                </div>
+            </div>
+            <div class="bg-white block w-full md:w-1/2 lg:w-1/3 xl:w-auto xl:max-w-lg md:absolute md:-top-20 md:right-0 lg:right-8">
+                <form action="formHandler.php" method="post" class="bg-union-blue text-white p-4 md:p-8 lg:p-10" id="signer">
+                    <h3 class="font-bold text-lg uppercase"><span class="font-black text-3xl">Signez l'appel</span><span class="hidden md:inline"> pour faire gagner l'écologie et la justice sociale en 2022 en isère</span></h3>
+                    <input type="hidden" name="redirect_path" value="/merci.html">
+                    <input class="opacity-0 absolute block w-0 h-0 overflow-hidden" type="text" name="name" placeholder="Nom">
+                    <input class="w-full text-black p-1 my-2" type="text" required="required" name="firstname" placeholder="Prénom">
+                    <input class="w-full text-black p-1 my-2" type="text" required="required" name="lastname" placeholder="Nom">
+                    <input class="w-full text-black p-1 my-2" type="email" required="required" name="mail" placeholder="mon@e-mail.fr">
+                    <input class="w-full text-black p-1 my-2" type="text" required="required" name="telephone" placeholder="Téléphone">
+                    <input class="w-full text-black p-1 my-2" type="digit" required="required" name="postcode" placeholder="Code postal (ex: 38500)">
+
+                    <label class="w-full block cursor-pointer my-2" for="more_info">
+                        <input type="checkbox" id="more_info" name="more_info" value="on"/>
+                        recevoir des nouvelles de la campagne
+                    </label>
+                    <label class="w-full block cursor-pointer my-2" for="help">
+                        <input type="checkbox" id="help" name="help" value="on"/>
+                        Je souhaite apporter mon aide au projet (en fonction des mes
+                        disponibilités : 10 min, 1h, 10h...)
+                    </label>
+                    <div data-depends="help" class="p-4">
+                        <label for="superpower">
+                            + 💪 J’ai un super pouvoir ?<br><small>(rédaction, photo, réseaux, communication, graphisme, vidéos, cuisine,...)</small>
+                        </label>
+                        <div class="autogrow">
+                            <textarea class="text-black p-1" id="superpower" onInput="this.parentNode.setAttribute('data-replicated-value', this.value)" name="superpower" placeholder="Mon super pouvoir est de ..."></textarea>
+                        </div>
+                    </div>
+                    <div class="w-full my-2 italic text-sm" >
+                        En signant j'accepte que mes informations soient traitées par l'équipe de campagne de Lucie Croissant conformément à la politique de conservation des données.
+                    </div>
+                    <input type="submit" class="block uppercase text-center bg-eelv-green text-white font-black mt-6 mx-auto py-2 px-4 cursor-pointer hover:bg-white hover:text-union-blue" value="Je signe" >
+                </form>
+                <div id="countdown" class="hidden font-black text-2xl pt-4 text-union-blue text-center uppercase">
+                    Les éléctions législatives sont dans <div class=" inline"><span id="jours" class="text-eelv-green">100</span>&nbsp;jours</div> et <div class=" inline"><span id="heures" class="text-eelv-green">10</span>&nbsp;heures</div> !
+                </div>
+                <img class="hidden w-2/3 mx-auto md:w-full my-4 md:block" src="img/LUCIE_CROISANT_LEGISLATIVES_2022@pierre.delva@foyer-image.com_512.jpg" alt="ensemble avec lucie croissant &copy; pierre.delva@foyer-image.com" width="512" height="327">
+            </div>
+        </div>
+    </section>
+</div>
+{{- partial "footer.html" . -}}
+{{- partial "burger.html" . -}}
+{{- partial "commonjs.html" . -}}
+
+<script type="text/javascript">
+    //home
+    let name = d.querySelector('input[name="name"]');
+    name.setAttribute('tabindex','-1');
+    let checkboxes = d.querySelectorAll('input[type="checkbox"]');
+
+    let read_more = d.querySelector('#read_more_layer');
+    let read_more_links = d.querySelectorAll('#appel_text a');
+    let appel_text = d.querySelector('#appel_text');
+
+    function collapse(){
+        read_more.classList.remove('hidden');
+        appel_text.setAttribute('style','');
+        read_more_links.forEach(function (link){
+            if (link.parentNode.id !== 'read_more_layer')
+                link.setAttribute('tabindex','-1');
+        });
+    }
+    function expend(){
+        read_more.classList.add('hidden');
+        appel_text.style.height = 'auto';
+        read_more_links.forEach(function (link){
+            link.setAttribute('tabindex','');
+        });
+    }
+
+    collapse();
+
+
+    checkboxes.forEach(function (checkbox){
+        checkbox.addEventListener('change',function (event){
+            let dependencies = d.querySelectorAll('[data-depends='+event.target.name+']');
+            dependencies.forEach(function (dep){
+                if (event.target.checked) {
+                    dep.classList.remove('hidden');
+                }else {
+                    dep.classList.add('hidden');
+                }
+            })
+        });
+    });
+    function setAutogrow () {
+        let autogrow = document.querySelectorAll('.autogrow');
+        for (let field of autogrow) {
+            if (!field.value) continue;
+            field.setAttribute('data-replicated-value', field.value);
+        }
+    }
+    window.addEventListener('load',function (){
+        setAutogrow();
+        d.querySelectorAll('[data-depends]').forEach(function (dependency){
+            let source = d.querySelector('input[type="checkbox"][name="'+dependency.getAttribute('data-depends')+'"]');
+            if (!source.checked){
+                dependency.classList.add('hidden');
+            }
+        });
+    })
+
+    const MINUTES = 60;
+    const HOURS = 60 * MINUTES;
+    const DAYS = 24 * HOURS;
+
+    let target = Date.parse('2022-06-12T08:00:00+0000') / 1000;
+    let remain = target - Date.now() / 1000 ;
+
+    if (remain > 0){
+        let days = Math.floor(remain/DAYS);
+        let days_container = d.querySelector('#jours');
+        days_container.textContent = days;
+
+        let hours = Math.floor(remain % DAYS / HOURS)
+        let hours_container = d.querySelector('#heures');
+        hours_container.textContent = hours;
+
+        let countdown = d.querySelector('#countdown');
+        countdown.classList.remove('hidden');
+    }else{
+        console.log(remain);
+        console.log('first round passed !');
+    }
+
+</script>
+<style>
+    .autogrow {
+        display: grid;
+    }
+    .autogrow::after {
+        content: attr(data-replicated-value) " ";
+        white-space: pre-wrap;
+        visibility: hidden;
+    }
+    .autogrow > textarea {
+        resize: none;
+    }
+    .autogrow > textarea,
+    .autogrow::after {
+        /* Add textarea styles here so that the textarea and div look the same */
+        grid-area: 1 / 1 / 2 / 2;
+    }
+</style>
+</body>
+</html>

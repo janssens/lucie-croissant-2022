@@ -1,0 +1,17 @@
+<script type="text/javascript">
+    let d = document;
+    let burger = d.querySelector('a[href="#burger"]');
+    burger.setAttribute('role', 'button');
+    let burger_close = d.querySelector('#burger_close');
+    let burger_panel = d.querySelector('#burger_menu');
+    burger.addEventListener('click', function(e){
+        e.preventDefault();
+        d.querySelector('body').classList.add('overflow-y-hidden');
+        burger_panel.classList.remove('hidden');
+    });
+    burger_close.addEventListener('click', function(e){
+        e.preventDefault();
+        d.querySelector('body').classList.remove('overflow-y-hidden');
+        burger_panel.classList.add('hidden');
+    });
+</script>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ site.LanguageCode }}">
+    {{- partial "head.html" . -}}
+    <body class="bg-white text-white font-sans bg-gray-500 md:bg-white">
+        <div class="min-h-screen">
+            {{- partial "header.html" . -}}
+            <section class="bg-white text-union-blue">
+                <div class="relative max-w-7xl mx-auto pb-4 md:pt-8" id="main">
+                    <div class="p-4 bg-union-blue text-white md:hidden">
+                        Candidate citoyenne aux élections législatives de la
+                        9è circonsctription de l’<strong>Isère</strong> du <strong>12 & 19 juin 2022</strong>
+                    </div>
+                    <hr>
+                    {{- block "main" . }}{{- end }}
+                </div>
+            </section>
+        </div>
+        {{- partial "footer.html" . -}}
+        {{- partial "burger.html" . -}}
+        {{- partial "commonjs.html" . -}}
+    </body>
+</html>

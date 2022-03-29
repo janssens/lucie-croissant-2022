@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'libre_baskerville';
+    src: url('/fonts/librebaskerville-regular-webfont.woff2') format('woff2'),
+    url('/fonts/librebaskerville-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nunito_sans';
+    src: url('/fonts/nunitosans-regular-webfont.woff2') format('woff2'),
+    url('/fonts/nunitosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nunito_sans';
+    src: url('/fonts/nunitosans-black-webfont.woff2') format('woff2'),
+    url('/fonts/nunitosans-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+#main p{
+    @apply my-6 px-2;
+}
+#main h1{
+    @apply px-2 py-4 bg-union-blue text-2xl uppercase text-white font-serif md:bg-transparent md:text-union-blue mb-4;
+}
+#main h2{
+    @apply px-2 py-4 bg-union-blue text-xl uppercase text-white font-serif md:bg-transparent md:text-union-blue mb-4;
+}
+#main h3{
+    @apply px-2 font-serif text-2xl text-eelv-green;
+}
+#main ul{
+    @apply px-2 list-disc pl-8 pb-3;
+}
