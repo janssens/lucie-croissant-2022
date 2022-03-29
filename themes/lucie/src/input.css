@@ -29,6 +29,12 @@
 
 }
 
+#main a{
+    @apply underline underline-offset-2 hover:text-eelv-green hover:decoration-union-blue;
+}
+#main img{
+    @apply m-auto;
+}
 #main p{
     @apply my-6 px-2;
 }
@@ -43,4 +49,8 @@
 }
 #main ul{
     @apply px-2 list-disc pl-8 pb-3;
+}
+
+#main ol{
+    @apply px-2 list-decimal pl-8 pb-3;
 }

@@ -3,18 +3,25 @@
         &ldquo; Ensemble pour faire gagner l'<strong>écologie</strong> et la <strong>justice sociale</strong>&nbsp;&rdquo;
     </div>
     <div class="p-4 md:grid md:grid-cols-4 md:gap-2 grid-cols-1">
-        <nav id="burger" class="text-center uppercase pt-4 col-span-2 mb-8">
+        <nav id="burger" class="text-center md:text-left md:pl-4 uppercase pt-4 md:mb-8">
             <ul>
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                 <li><a class="hover:underline" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a></li>
                 {{ end }}
-                <li><a class="hover:underline" href="./mentions_legales.html">Mentions légales</a></li>
             </ul>
         </nav>
-        <div class="pr-4">
+        <nav class="text-center md:text-left md:pl-4 uppercase md:pt-4 mb-8">
+            <ul>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.footer }}
+                <li><a class="hover:underline" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+        <div class="pr-4 pt-4">
             Les cantons de la 9ème ciconscription de l'Isère : <br>
-            <ul class="font-serif italic text-sm pl-8">
+            <ul class="font-serif italic text-sm pl-2">
                 <li>Pont-en-Royans</li>
                 <li>Rives</li>
                 <li>Saint-Marcellin</li>

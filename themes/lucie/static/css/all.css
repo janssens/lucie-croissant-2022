@@ -746,14 +746,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
-.bg-union-blue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(63 38 130 / var(--tw-bg-opacity));
-}
-
 .bg-eelv-green {
   --tw-bg-opacity: 1;
   background-color: rgb(64 150 130 / var(--tw-bg-opacity));
+}
+
+.bg-union-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 38 130 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -813,11 +813,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 4rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .pt-4 {
   padding-top: 1rem;
 }
@@ -832,6 +827,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
 }
 
 .text-center {
@@ -891,14 +890,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-transform: uppercase;
 }
 
-.lowercase {
-  text-transform: lowercase;
-}
-
-.normal-case {
-  text-transform: none;
-}
-
 .italic {
   font-style: italic;
 }
@@ -908,14 +899,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .text-union-blue {
   --tw-text-opacity: 1;
   color: rgb(63 38 130 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-eelv-green {
@@ -926,6 +917,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.decoration-4 {
+  text-decoration-thickness: 4px;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
 }
 
 .opacity-0 {
@@ -963,6 +962,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 900;
 
   font-style: normal;
+}
+
+#main a {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-underline-offset: 2px;
+}
+
+#main a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(64 150 130 / var(--tw-text-opacity));
+  -webkit-text-decoration-color: #3F2682;
+          text-decoration-color: #3F2682;
+}
+
+#main img {
+  margin: auto;
 }
 
 #main p {
@@ -1043,9 +1059,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.75rem;
 }
 
+#main ol {
+  list-style-type: decimal;
+  padding-right: 0.5rem;
+  padding-left: 2rem;
+  padding-bottom: 0.75rem;
+}
+
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:font-bold:hover {
+  font-weight: 700;
 }
 
 .hover\:text-union-blue:hover {
@@ -1099,6 +1126,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-column: span 2 / span 2;
   }
 
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1148,13 +1179,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
   .md\:bg-eelv-green {
     --tw-bg-opacity: 1;
     background-color: rgb(64 150 130 / var(--tw-bg-opacity));
-  }
-
-  .md\:bg-transparent {
-    background-color: transparent;
   }
 
   .md\:fill-white {
@@ -1176,6 +1207,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:pt-8 {
     padding-top: 2rem;
+  }
+
+  .md\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .md\:pt-4 {
+    padding-top: 1rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-lg {
