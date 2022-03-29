@@ -12,22 +12,24 @@ menu:
 
 ## Pourquoi ?
 
-Le numérique consomme jusqu&rsquo;à 10% de l'électricité mondiale.
-En effet, toutes nos activités numériques consomment de l'énergie. Et la production de cette énergie entame la 
-bio-capacité de notre planète et sa capacité à nous héberger.  
-Ainsi 4 % des émissions de gaz à effet de serre sont imputées à l’industrie du web.
-Et c'est sans compter de l'impacte environmental du matériel 
-Il devient urgent de réduire l’impact du numérique sur notre environnement. 
+C'est le plus souvent imperseptible mais toutes nos activités numériques consomment de l'énergie.
+Ainsi le secteur consomme jusqu&rsquo;à 10% de l'électricité mondiale.
+La production de cette énergie entame la bio-capacité de notre planète et sa faculté à nous héberger.  
+4 % des émissions de gaz à effet de serre sont ainsi imputées à l’industrie du web.
+Et c'est sans compter les impactes environnementaux associé aux infrastructures et terminaux, des cables sous-marins à 
+inter-continentaux à nos smartphones en passant par tous les serveurs et infrastructure du "cloud".  
+
+Il est urgent de réduire l’impact du numérique sur notre environnement. 
 
 ## Un site Eco-conçu, qu'est-ce que ça veux dire ?
 
-Voici quelques pistes pour faire baisser l'impact écologique d'un site internet :
-1. Un hébergement vert avec des serveurs alimentés avec des énergies vertes et renouvelables.
-2. Le choix d'une technologie économe
-3. Un design épuré
+Voici quelques pistes pour réduire l'impact écologique d'un site internet :
+1. Utiliser un hébergement _vert_ avec des "petits" serveurs alimentés avec des énergies renouvelables.
+2. Faire le choix d'une technologie économe, comme les sites statique
+3. Adopter un design épuré
 4. Limiter le nombre de fonctionnalités
 5. Utiliser des contenus légers
-6. Des requêtes limitées à l’essentiel (moins d'images, de vidéos, d'animations, etc)
+6. Limitées à l’essentiel les requêtes faites au serveur (moins de services tiers, d'images, de vidéos, d'animations, etc)
 
 ## En pratique
 
