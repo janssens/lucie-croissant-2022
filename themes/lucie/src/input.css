@@ -10,7 +10,6 @@
     font-style: normal;
 
 }
-
 @font-face {
     font-family: 'nunito_sans';
     src: url('/fonts/nunitosans-regular-webfont.woff2') format('woff2'),
@@ -19,20 +18,29 @@
     font-style: normal;
 
 }
-
-@font-face {
-    font-family: 'nunito_sans';
-    src: url('/fonts/nunitosans-black-webfont.woff2') format('woff2'),
-    url('/fonts/nunitosans-black-webfont.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-
-}
 .eelv-green {
     @apply bg-eelv-green text-white md:bg-transparent md:text-union-blue;
 }
 .more{
     @apply p-4 text-center text-2xl text-white bg-gray-700 md:text-gray-700 md:bg-transparent italic font-serif font-light;
+}
+header nav li.active > a{
+    @apply underline;
+}
+footer nav li.active > a{
+    @apply font-bold;
+}
+#burger_menu li.active > a{
+    @apply font-bold;
+}
+footer nav li.active > a:before {
+    content: '→';
+}
+#burger_menu li.active > a:before {
+    content: '→';
+}
+#burger_menu li.active > a:after {
+    content: '←';
 }
 #main a{
     @apply underline underline-offset-2 hover:text-eelv-green hover:decoration-union-blue;
@@ -55,7 +63,6 @@
 #main ul{
     @apply px-2 list-disc pl-8 pb-3;
 }
-
 #main ol{
     @apply px-2 list-decimal pl-8 pb-3;
 }

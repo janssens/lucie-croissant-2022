@@ -11,6 +11,7 @@ menu:
 Je m’appelle Lucie Croissant, j’ai 34 ans.  
 Hier, je me définissais comme passionnée de défis sportifs (triathlon, raids, ultra trails) et professionnels.
 
+{{% image filename="lucie_croissant.jpg" alt="lucie croissant sportive" %}}
 
 J’ai travaillé 12 ans dans l’industrie du sport dans des TPE et des grands groupes (ASO, B’TWIN /Décathlon, Adidas, TIME SPORT / Groupe Rossignol).
 J’ai fait partie d’un comité de direction, en tant que responsable du service marketing. J’ai aussi représenté les salariés en tant qu’élue du personnel, notamment lors de plans de licenciements.

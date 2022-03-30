@@ -7,3 +7,6 @@ theme = "lucie"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+enableGitInfo = true
+[params]
+  cssVersion = '202203301904'

@@ -7,7 +7,7 @@
             <ul>
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
-                <li><a class="hover:underline" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a></li>
+                <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a class="hover:underline" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a></li>
                 {{ end }}
             </ul>
         </nav>
@@ -15,7 +15,7 @@
             <ul>
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.footer }}
-                <li><a class="hover:underline" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a></li>
+                <li class="{{ if $currentPage.IsMenuCurrent "footer" . }}active{{ end }}"><a class="hover:underline" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a></li>
                 {{ end }}
             </ul>
         </nav>

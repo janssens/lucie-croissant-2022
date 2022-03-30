@@ -3,7 +3,7 @@
     <ul class="list-none text-lg uppercase text-right font-light">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <li class="inline mx-3"><a class="hover:underline underline-offset-2 decoration-4" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a></li>
+        <li class="inline mx-3{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}"><a class="hover:underline underline-offset-2 decoration-4" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
         <li class="mx-3 hidden lg:inline"><a href="https://www.facebook.com/Lucie-Croissant-L%C3%A9gislatives-2022-104476105520908"><span class="sr-only" >Facebook</span>
             <svg class="h-4 w-4 inline" style="fill: currentColor" xmlns="http://www.w3.org/2000/svg"

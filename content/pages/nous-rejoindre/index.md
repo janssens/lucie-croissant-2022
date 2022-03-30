@@ -15,7 +15,7 @@ Il existe des formes d’engagement différentes : 15 sec, 1h ou plus, tout le m
 
 Vous trouverez ci dessous, les différents moyens d’action que nous proposons, et si vous souhaitez vous engager davantage, inscrivez-vous [ici](/index.html#signer).
 
-{{< figure src="/img/LUCIE_CROISANT_LEGISLATIVES_2022@pierre.delva@foyer-image.com_29_752.jpg" link="/img/LUCIE_CROISANT_LEGISLATIVES_2022@pierre.delva@foyer-image.com_29_2000.jpg" alt="Une équipe motivée &copy; pierre.delva@foyer-image.com" width="752" height="383">}}
+{{% image filename="LUCIE_CROISANT_LEGISLATIVES_2022@pierre.delva@foyer-image.com_29.jpg" alt="Une équipe motivée &copy; pierre.delva@foyer-image.com" %}}
 
 Aussi, pour répondre à toutes vos questions, et pour que vous soyez à l’aise pour parle du projet autour de vous, nous organisons des réunions apéros d’information action.
 Vous trouverez les prochaines dates ici :
@@ -26,7 +26,8 @@ Vous trouverez les prochaines dates ici :
 
 ### Action en ligne
 
-__15 secondes !__ Je partage les contenus des pages Facebook, Instagram de la campagne de Lucie Croissant  
+__15 secondes !__ Je partage les conte
+nus des pages Facebook, Instagram de la campagne de Lucie Croissant  
 __5 minutes !__ J’invite 10 amies et amis à s’abonner à la page facebook et / ou instagram.  
 __10 minutes !__ Je fais passer l’appel à 10 de mes contacts habitant la 9e circonscription de l’Isère (Cantons de Pont-en-Royans, Rives, Saint-Marcellin, Tullins, Vinay, Voiron).</p>
 

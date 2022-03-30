@@ -35,7 +35,7 @@
     <ul class="text-white text-center w-full text-3xl uppercase mt-16">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <li class="my-8"><a class="hover:underline" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a></li>
+        <li class="my-8{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}"><a class="hover:underline" title="{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
     </ul>
     <div class="absolute bottom-0 w-full left-0 right-0 text-center px-4 py-12">
