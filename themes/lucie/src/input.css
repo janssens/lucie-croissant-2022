@@ -35,12 +35,19 @@ footer nav li.active > a{
 }
 footer nav li.active > a:before {
     content: '→';
+    @apply mr-1;
+}
+footer nav li.active > a:after {
+    content: '←';
+    @apply md:hidden ml-1;
 }
 #burger_menu li.active > a:before {
-    content: '→';
+    content: '>';
+    @apply mr-2;
 }
 #burger_menu li.active > a:after {
-    content: '←';
+    content: '<';
+    @apply ml-2;
 }
 #main a{
     @apply underline underline-offset-2 hover:text-eelv-green hover:decoration-union-blue;
