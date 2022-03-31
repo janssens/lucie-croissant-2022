@@ -11,7 +11,7 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 
-foreach (glob(__DIR__.'/php_src/Command/*Command.php') as $filename) {
+foreach (glob(__DIR__.'/Command/*Command.php') as $filename) {
     include_once($filename);
     $path_info = pathinfo($filename);
     $className = $path_info['filename'];

@@ -42,3 +42,4 @@ jobs:
           PORT: ${{ secrets.DEPLOY_SSH_PORT }}
           TARGET: ${{ secrets.DEPLOY_SSH_PHP_TARGET }}
           SOURCE: ./php_src/
+          POST_SCRIPT: "composer install"

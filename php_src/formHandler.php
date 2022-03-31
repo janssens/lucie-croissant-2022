@@ -1,6 +1,14 @@
 <?php
 
+require __DIR__.'/vendor/autoload.php';
 
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+use Dotenv\Dotenv;
+
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 
 class Entry{
     /**
@@ -92,6 +100,22 @@ class Entry{
             ];
     }
 
+    public function toHtml(){
+        return 'reçu le '.
+            $this->getCreatedAt()->format('d M Y').' à '.
+            $this->getCreatedAt()->format('H:i:s').'<br />'.
+            '<b>Nom / Prenom :</b> '.$this->getFirstname().' / '.$this->getLastname().'<br />'.
+            '<b>Email :</b> '.$this->getMail().'<br />'.
+            '<b>Tel :</b> '.$this->getPhone().'<br />'.
+            '<b>CP :</b> '.$this->getPostcode().'<br />'.
+            (($this->getInfo()) ? 'Souhaite des infos' : 'Ne souhaite pas d&rsquo;info').'<br />'.
+            (($this->getHelp()) ? 'Souhaite donner de l&rsquo;aider' : 'Ne souhaite pas aider').
+            (($this->getExtra() && isset($this->getExtra()['superpower']) && $this->getExtra()['superpower']) ? ('<br />'.'<b>super pouvoir :</b> '.$this->getExtra()['superpower'].'<br />') : '').'<br />'.
+            'en csv :'.'<br />'.
+            '<small>'.implode(',',$this->getHeader()).'</small>'.'<br />'.
+            '<small>'.implode(',',$this->toArray()).'</small>';
+    }
+
     /**
      * @return DateTime
      */
@@ -151,13 +175,10 @@ class Entry{
      */
     static function checkPost($post){
 
-        foreach (['firstname','lastname','mail','postcode','rgpd'] as $key){
+        foreach (['firstname','lastname','mail','postcode'] as $key){
             if (!isset($post[$key]))
                 return false;
         }
-
-        if ($post['rgpd']!='on')
-            return false;
 
         if (!filter_var($_POST["mail"], FILTER_VALIDATE_EMAIL)) {
             $err = "Invalid email format";
@@ -217,6 +238,7 @@ class EntryCsv{
 
 if (isset($_POST['name'])&&strlen($_POST['name'])){
     //honey pot
+    $errormsg = "honey pot";
 }else{
     $filename = "data/data.csv";
     if (Entry::checkPost($_POST)){
@@ -225,25 +247,42 @@ if (isset($_POST['name'])&&strlen($_POST['name'])){
         $csv = new EntryCsv($filename,true);
         $csv->addEntry($entry);
 
-        //mail
-        $to = "gaetan"."@".""."plop"."com".".fr";
-        $subject = "[Lucie] new form submit";
+        $mail = new PHPMailer(true);
+        try {
+            // User smtp access to configure PhpMailer for MailSlurp
+            $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+            $mail->isSMTP();
+            $mail->SMTPAuth   = true;
+            $mail->Host       = $_ENV['SMTP_SERVER_HOST'];
+            $mail->Port       = $_ENV['SMTP_SERVER_PORT'];
+            $mail->Username   = $_ENV['SMTP_USERNAME'];
+            $mail->Password   = $_ENV['SMTP_PASSWORD'];
+            $mail->SMTPSecure = '';
 
-        $message = print_r($entry->toArray(),true);
+            // write email from inbox1 to inbox2
+            $mail->setFrom($_ENV['SMTP_FROM']);
+            foreach (explode(',',$_ENV['SMTP_TO']) as $to)
+                $mail->addAddress($to);
+            $mail->isHTML(true);
+            $mail->Subject = "[".$_ENV['SITE_NAME']."] nouvelle signature";
+            $mail->Body    = $entry->toHtml();
 
-        $header = "From:php@srv.plopcom.fr \r\n";
-        $header = "Reply-to:g@plopcom.fr \r\n";
-        //$header .= "Cc:afgh@somedomain.com \r\n";
-        $header .= "MIME-Version: 1.0\r\n";
-        $header .= "Content-type: text/html\r\n";
-        //
+            // send the email
+            $sent = $mail->send();
 
-        $retval = mail($to,$subject,$message,$header);
+        } catch (Exception $e) {
+            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+            throw new Exception($mail->ErrorInfo);
+        }
+    }else{
+        $errormsg = 'entry not valid';
     }
 }
 
+header('x-debug-errormsg: '.$errormsg);
+
 if (isset($_POST['redirect_path']))
-    header('Location: '. $_SERVER['HTTP_HOST'].$_POST['redirect_path']);
+    header('Location: http'. (($_SERVER['HTTPS']) ? 's' : '') .'://'. $_SERVER['HTTP_HOST'].$_POST['redirect_path']);
 else
     header('Location: /');
-die();
+exit();

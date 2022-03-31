@@ -5,4 +5,5 @@ resources/
 public/
 data/*.csv
 themes/lucie/static/img/*ORI.jpg
-/vendor/
+php_src/vendor/
+php_src/data/*.csv
