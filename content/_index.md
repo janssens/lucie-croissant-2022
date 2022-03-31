@@ -19,19 +19,19 @@ Faisons en sorte que ces lois répondent à nos attentes.
 
 __Une vraie loi Climat__, une __grande loi de transition alimentaire__ vers une agriculture paysanne et écologique, une __fiscalité juste__ et prenant en compte l’environnement
     (comme la __TVA à 0 %__ sur l’alimentation bio), __relocaliser la production__ pour une meilleure
-    __autonomie alimentaire__ et __énergétique,...__
+    __autonomie alimentaire__ et __énergétique__.
 
-Nous, citoyen.ne.s de la __9e circonscription de l’Isère__  
+Nous, citoyennes et citoyens de la __9e circonscription de l’Isère__  
     (une partie de la CA Pays Voironnais et la CC Saint Marcellin Vercors Isère), devons faire entendre nos voix et
-    __changer ces député.e.s__ qui ne nous ressemblent plus.
+    __changer ces députés__ qui ne nous ressemblent plus.
   
-Face aux urgences climatique, sociale, et démocratique, je me présente aux législatives
-    pour porter __une candidature citoyenne, unique,qui rassemble__ tous ceux qui défendent le climat et la justice sociale.
+Face aux urgences climatique, sociale, et démocratique, je me présente aux élections législatives
+    pour porter __une candidature citoyenne, unique, qui rassemble__ tous ceux qui défendent le climat et la justice sociale.
   
 Nous avons besoin de vous, car plus nous serons nombreux à signer cet appel, __plus nos voix pourront avoir un impact pour une candidature citoyenne__, de rassemblement, avec les partis qui souhaitent faire gagner l’écologie, la justice sociale et la démocratie en 2022.
 
   
-Signez cet appel et faites signer autour de vous, pour soutenir ma candidature aux législatives et porter la voix citoyenne à l’Assemblée Nationale.
+Signez cet appel et faites signer autour de vous, pour soutenir ma candidature aux élections législatives et porter la voix citoyenne à l’Assemblée Nationale.
 
 
-Pour notre génération et les générations futures, merci.
+Pour notre génération et __les générations futures__, merci.
