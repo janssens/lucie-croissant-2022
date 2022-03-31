@@ -1,12 +1,8 @@
 {{- $filename := .Get "filename" | default (.Get 0) -}}
 {{- $alt := .Get "alt" | default (.Get 1) -}}
 {{ $image := .Page.Resources.GetMatch $filename }}
-{{ $image_big := $image.Resize "2000x" }}
-{{ $image_resized := $image.Resize "752x" }}
-{{ if hugo.IsExtended }}
-    {{ $image_big := $image.Resize "2000x webp" }}
-    {{ $image_resized := $image.Resize "752x webp" }}
-{{ end }}
+{{ $image_big := $image.Resize "2000x webp" }}
+{{ $image_resized := $image.Resize "752x webp" }}
 
 {{ with $image_resized }}
 <a href="{{ $image_big.RelPermalink }}"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" /></a>
