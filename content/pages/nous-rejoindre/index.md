@@ -20,9 +20,9 @@ Vous trouverez ci dessous, les différents moyens d’action que nous proposons,
 Aussi, pour répondre à toutes vos questions, et pour que vous soyez à l’aise pour parle du projet autour de vous, nous organisons des réunions apéros d’information action.
 Vous trouverez les prochaines dates ici :
 
-- le 00 avril 2022 - 20h Visio
-- le 00 avril 2022 - 9h Marché de Voiron
-- 
+- _mardi 5 avril - Notre Dame de l'Osier - à partir de 17h30_ marché de  avec l'association TERO LOKO
+- _jeudi 7 avril - Coublevie_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_jeudi_7_avril?utm_source=luciecroissantlegislatives&utm_medium=website&utm_campaign=page_nous-rejoindre)
+- _jeudi 14 avril - St Aupre_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_14_avril_st_aupre?utm_source=luciecroissantlegislatives&utm_medium=website&utm_campaign=page_nous-rejoindre)
 
 ### Action en ligne
 
