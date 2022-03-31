@@ -16,14 +16,15 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true
       # Step 3 - Clean and don't fail
       - name: 🛠️ Clean public directory
         run: rm -rf public
       # Step 4 - Builds the site using the latest version of Hugo
       - name: 🔥 Build website
-        run: hugo 
+        run: hugo --minify -v
       # Deploy
-      - name: 🚀 Rsync Deploy
+      - name: 🚀 Rsync Deploy Hugo
         uses: up9cloud/action-rsync@master
         env:
           HOST: ${{ secrets.DEPLOY_SSH_HOST }}
@@ -32,3 +33,12 @@ jobs:
           PORT: ${{ secrets.DEPLOY_SSH_PORT }}
           TARGET: ${{ secrets.DEPLOY_SSH_TARGET }}
           SOURCE: ./public/
+      - name: 🚀 Rsync Deploy Php backend
+        uses: up9cloud/action-rsync@master
+        env:
+          HOST: ${{ secrets.DEPLOY_SSH_HOST }}
+          KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          USER: ${{ secrets.DEPLOY_SSH_USER }}
+          PORT: ${{ secrets.DEPLOY_SSH_PORT }}
+          TARGET: ${{ secrets.DEPLOY_SSH_PHP_TARGET }}
+          SOURCE: ./php_src/
