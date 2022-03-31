@@ -42,4 +42,5 @@ jobs:
           PORT: ${{ secrets.DEPLOY_SSH_PORT }}
           TARGET: ${{ secrets.DEPLOY_SSH_PHP_TARGET }}
           SOURCE: ./php_src/
-          POST_SCRIPT: "composer install"
+          RUN_SCRIPT_ON: "remote"
+          POST_SCRIPT: "cd ${{ secrets.DEPLOY_SSH_PHP_TARGET }}; pwd; composer install"
