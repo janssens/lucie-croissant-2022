@@ -34,4 +34,4 @@ Nous avons besoin de vous, car plus nous serons nombreux à signer cet appel, __
 Signez cet appel et faites signer autour de vous, pour soutenir ma candidature aux élections législatives et porter la voix citoyenne à l’Assemblée Nationale.
 
 
-Pour notre génération et les générations futures, merci.
+Pour notre génération et __les générations futures__, merci.
