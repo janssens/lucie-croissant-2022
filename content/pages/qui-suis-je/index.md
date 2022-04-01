@@ -9,16 +9,21 @@ menu:
 ---
 
 Je m’appelle Lucie Croissant, j’ai 34 ans.  
-Hier, je me définissais comme passionnée de défis sportifs (triathlon, raids, ultra trails) et professionnels.
 
-{{% image filename="lucie_croissant.jpg" alt="lucie croissant sportive" %}}
+__Hier__, 
 
-J’ai travaillé 12 ans dans l’industrie du sport dans des TPE et des grands groupes (ASO, B’TWIN /Décathlon, Adidas, TIME SPORT / Groupe Rossignol).
+je me définissais comme __passionnée de défis sportifs__(triathlon, raids, ultra trails) et __professionnels__.
+
+J’ai travaillé __12 ans dans l’industrie du sport dans des TPE et des grands groupes (ASO, B’TWIN /Décathlon, Adidas, TIME SPORT / Groupe Rossignol)__.
 J’ai fait partie d’un comité de direction, en tant que responsable du service marketing. J’ai aussi représenté les salariés en tant qu’élue du personnel, notamment lors de plans de licenciements.
 
 
-Aujourd’hui, je suis devenue consomm’actrice, marcheuse pour le climat et lobbyiste pour la planète auprès de mes cercles professionnels, sociaux, familiaux.
+__Aujourd’hui__,
+
+je suis devenue consomm’actrice, marcheuse pour le climat et lobbyiste pour la planète auprès de mes cercles professionnels, sociaux, familiaux.
 Mes 2 enfants ont accéléré ma prise de conscience écologique. Ma passion sportive se transforme en passion pour des actions  en faveur de l’environnement.
+
+{{% image filename="lucie_croissant.jpg" alt="lucie croissant sportive" %}}
 
 
 Mes compétitions aux 4 coins du monde (Championnats du monde à Hawaï ou Diagonale des fous à La Réunion,...) 
@@ -30,7 +35,8 @@ pour soutenir la monnaie locale, lutter contre la mal inscription.
 J’ai aussi fait une première expérience politique lors des municipales en 2020.
 
 
-Et demain ?
+__Et demain ?__
+
 Je souhaite porter mes convictions environnementales au niveau politique.  
 J’ai rencontré des paysans qui m’ont parlé de leurs difficultés financières, alors que leur activité est vitale pour nous
 et notre planète. La Convention Citoyenne pour le Climat était un espoir, elle m’a déçue.
