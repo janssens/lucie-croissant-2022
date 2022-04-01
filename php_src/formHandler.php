@@ -250,6 +250,8 @@ if (isset($_POST['name'])&&strlen($_POST['name'])){
         $csv->addEntry($entry);
 
         //write csv on webdav
+        //https://docs.nextcloud.com/server/latest/developer_manual/client_apis/WebDAV/basic.html
+        //https://cetteup.com/35/how-to-access-nextcloud-using-webdav-and-php/
         $settings = array(
             'baseUri' => $_ENV['WEBDAV_URL'],
             'userName' => $_ENV['WEBDAV_USERNAME'],
