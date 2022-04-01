@@ -6,10 +6,11 @@
     {{- partial "header.html" . -}}
     <section class="md:bg-white md:text-union-blue">
         <div class="relative max-w-7xl mx-auto md:pt-8">
+            {{ if .Site.Params.Baselinehtml }}
             <h2 class="p-4 bg-eelv-green md:bg-transparent md:w-1/2 md:text-lg">
-                Candidate citoyenne aux <strong>élections législatives</strong> de la
-                9e circonsctription de l’<strong>Isère</strong> du <strong>12 & 19 juin 2022</strong>
+                {{ .Site.Params.Baselinehtml | markdownify }}
             </h2>
+            {{ end }}
             <hr>
             <div class="p-4 bg-white text-union-blue md:bg-transparent md:w-1/2" id="main">
                 <div id="appel_text" style="height: auto" class="h-56 overflow-hidden md:h-auto relative" >

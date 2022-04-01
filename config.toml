@@ -8,5 +8,7 @@ theme = "lucie"
     [markup.goldmark.renderer]
       unsafe = true
 enableGitInfo = true
+enableRobotsTXT = true
 [params]
   cssVersion = '202203312043'
+  baselinehtml = 'Candidate citoyenne aux __élections législatives__ de la 9e circonsctription de l’__Isère__ du __12 & 19 juin 2022__'
