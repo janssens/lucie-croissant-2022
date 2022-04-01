@@ -242,11 +242,24 @@ if (isset($_POST['name'])&&strlen($_POST['name'])){
 }else{
     $filename = "data/data.csv";
     if (Entry::checkPost($_POST)){
+        // create the entry
         $entry = new Entry();
         $entry->initFromPost($_POST);
+        //write on csv
         $csv = new EntryCsv($filename,true);
         $csv->addEntry($entry);
 
+        //write csv on webdav
+        $settings = array(
+            'baseUri' => $_ENV['WEBDAV_URL'],
+            'userName' => $_ENV['WEBDAV_USERNAME'],
+            'password' => $_ENV['WEBDAV_PASSWORD']
+        );
+        $client = new Sabre\DAV\Client($settings);
+        $data = file_get_contents($filename);
+        $upload_result = $client->request('PUT', $_ENV['WEBDAV_DEST_FILENAME'], $data);
+
+        //send mail as backup
         $mail = new PHPMailer(true);
         try {
             // User smtp access to configure PhpMailer for MailSlurp
