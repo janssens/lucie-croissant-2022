@@ -16,16 +16,16 @@
                         {{ .Content }}
                     </div>
                     <div class="bg-white block w-full md:w-1/2 lg:w-1/3 xl:w-auto xl:max-w-lg md:absolute md:-top-20 md:right-0 lg:right-8">
-                        <div class="bg-union-blue text-white p-4 md:p-8 lg:p-10 mb-2 h-56">
-                            <a role="button" class="bg-eelv-green block m-1 p-2 text-white font-bold w-16 float-left text-center no-underline hover:no-underline hover:font-black" href="#">5 €</a>
-                            <a role="button" class="bg-eelv-green block m-1 p-2 text-white font-bold w-16 float-left text-center no-underline hover:no-underline hover:font-black" href="#">10 €</a>
-                            <a role="button" class="bg-eelv-green block m-1 p-2 text-white font-bold w-16 float-left text-center no-underline hover:no-underline hover:font-black" href="#">15 €</a>
-                            <a role="button" class="bg-eelv-green block m-1 p-2 text-white font-bold w-16 float-left text-center no-underline hover:no-underline hover:font-black" href="#">20 €</a>
-                            <a role="button" class="bg-eelv-green block m-1 p-2 text-white font-bold w-16 float-left text-center no-underline hover:no-underline hover:font-black" href="#">50 €</a>
-                            <a role="button" class="bg-eelv-green block m-1 p-2 text-white font-bold w-16 float-left text-center no-underline hover:no-underline hover:font-black" href="#">150 €</a>
-                            <a role="button" class="bg-eelv-green block m-1 p-2 text-white font-bold w-16 float-left text-center no-underline hover:no-underline hover:font-black" href="#">300 €</a>
-                            <a role="button" class="bg-eelv-green block m-1 p-2 text-white font-bold w-16 float-left text-center no-underline hover:no-underline hover:font-black" href="#">500 €</a>
-                            <a role="button" class="bg-eelv-green block m-1 p-2 text-white font-bold w-16 float-left text-center no-underline hover:no-underline hover:font-black" href="#">750 €</a>
+                        <div class="bg-union-blue text-white p-4 md:p-8 lg:p-10 mb-2 h-56" id="sim">
+                            <a role="button" href="#">5 €</a>
+                            <a role="button" href="#">10 €</a>
+                            <a role="button" href="#">15 €</a>
+                            <a role="button" href="#">20 €</a>
+                            <a role="button" href="#">50 €</a>
+                            <a role="button" href="#">150 €</a>
+                            <a role="button" href="#">300 €</a>
+                            <a role="button" href="#">500 €</a>
+                            <a role="button" href="#">750 €</a>
                             <div class="w-full clear-both"></div>
                             <input class="text-black p-1 my-2" type="digit" name="ex_amount" placeholder="Montant (en euros)">
                             <br>
@@ -62,6 +62,29 @@
                                 <input type="checkbox" id="rgpd" name="rgpd" value="on"/>
                                 <div class="text-sm inline" >Je consens à ce que ce site stocke mes informations envoyées afin qu’ils puissent répondre à ma requête</div>
                             </label>
+                            <div class="grid grid-cols-3">
+                                <label for="check" class="cursor-pointer">
+                                    <input type="radio" id="check" name="method" value="check"/> chèque
+                                </label>
+                                <label for="sepa" class="cursor-pointer">
+                                    <input type="radio" id="sepa" name="method" value="sepa"/> virement
+                                </label>
+                                <label for="creditcard" class="cursor-pointer">
+                                    <input type="radio" id="creditcard" name="method" value="creditcard"/> carte bancaire
+                                </label>
+                            </div>
+                            <div>
+                                <div data-depends="method" data-check-value="check">
+                                    envoyer un chèque à l’ordre AFE AVEC LC - Mandataire financier de la candidate Lucie Croissant - 639 route du Guillon - 38 500 COUBLEVIE
+                                </div>
+                                <div data-depends="method" data-check-value="sepa">
+                                    faire un virement vers l’IBAN du compte de la campagne :
+                                    FR76XXXXXXXX 144 (code BIC : XXXX) en précisant comme nom du destinataire AFE AVEC LC pour Lucie Croissant
+                                </div>
+                                <div data-depends="method" data-check-value="creditcard">
+                                    Vous serez redirigé vers le site de notre banque afin de finaliser votre paiement
+                                </div>
+                            </div>
                             <input type="submit" class="block uppercase text-center bg-eelv-green text-white font-black mt-6 mx-auto py-2 px-4 cursor-pointer hover:bg-white hover:text-union-blue" value="Donner" >
                         </form>
                     </div>
@@ -71,5 +94,35 @@
         {{- partial "footer.html" . -}}
         {{- partial "burger.html" . -}}
         {{- partial "commonjs.html" . -}}
+
+        <script type="text/javascript">
+            //home
+            let name = d.querySelector('input[name="name"]');
+            name.setAttribute('tabindex','-1');
+            let radios = d.querySelectorAll('input[type="radio"]');
+
+            radios.forEach(function (radio){
+                radio.addEventListener('change',function (event){
+                    let dependencies = d.querySelectorAll('[data-depends='+event.target.name+']');
+                    dependencies.forEach(function (dep){
+                        if (event.target.value === dep.getAttribute('data-check-value')) {
+                            dep.classList.remove('hidden');
+                        }else {
+                            dep.classList.add('hidden');
+                        }
+                    })
+                });
+            });
+
+            window.addEventListener('load',function (){
+                d.querySelectorAll('[data-depends]').forEach(function (dependency){
+                    let source = d.querySelector('input[type="radio"][name="'+dependency.getAttribute('data-depends')+'"]');
+                    if (!source.checked){
+                        dependency.classList.add('hidden');
+                    }
+                });
+            })
+
+        </script>
     </body>
 </html>
