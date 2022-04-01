@@ -9,35 +9,38 @@ menu:
 ---
 
 Je m’appelle Lucie Croissant, j’ai 34 ans.  
-Hier, je me définissais comme passionnée de défis sportifs (triathlon, raids, ultra trails) et professionnels.
 
-{{% image filename="lucie_croissant.jpg" alt="lucie croissant sportive" %}}
+__Hier__, je me définissais comme __passionnée de défis sportifs__(triathlon, raids, ultra trails) et __professionnels__.
 
-J’ai travaillé 12 ans dans l’industrie du sport dans des TPE et des grands groupes (ASO, B’TWIN /Décathlon, Adidas, TIME SPORT / Groupe Rossignol).
+J’ai travaillé __12 ans dans l’industrie du sport dans des TPE et des grands groupes (ASO, B’TWIN /Décathlon, Adidas, TIME SPORT / Groupe Rossignol)__.
 J’ai fait partie d’un comité de direction, en tant que responsable du service marketing. J’ai aussi représenté les salariés en tant qu’élue du personnel, notamment lors de plans de licenciements.
 
 
-Aujourd’hui, je suis devenue consomm’actrice, marcheuse pour le climat et lobbyiste pour la planète auprès de mes cercles professionnels, sociaux, familiaux.
-Mes 2 enfants ont accéléré ma prise de conscience écologique. Ma passion sportive se transforme en passion pour des actions  en faveur de l’environnement.
+__Aujourd’hui__, je suis devenue __consomm’actrice, marcheuse pour le climat et lobbyiste__ pour la planète auprès de mes cercles professionnels, sociaux, familiaux.
+Mes 2 enfants ont accéléré ma prise de conscience écologique. Ma passion sportive se transforme en passion pour des __actions  en faveur de l’environnement__.
+
+{{% image filename="lucie_croissant.jpg" alt="lucie croissant sportive" %}}
 
 
 Mes compétitions aux 4 coins du monde (Championnats du monde à Hawaï ou Diagonale des fous à La Réunion,...) 
 se sont transformées en compétition à côté de chez moi (UT4M autour de Grenoble, Verti Vouise !).
 
 
-Outre mes investissements dans les associations sportives, je m’investis aujourd’hui aussi dans les associations citoyennes, 
+Outre mes investissements dans les __associations sportives__, je m’investis aujourd’hui aussi dans __des associations citoyennes__, 
 pour soutenir la monnaie locale, lutter contre la mal inscription.
-J’ai aussi fait une première expérience politique lors des municipales en 2020.
+J’ai aussi fait une première expérience politique lors __des municipales en 2020__.
 
 
-Et demain ?
-Je souhaite porter mes convictions environnementales au niveau politique.  
+__Et demain ?__
+Je souhaite porter mes convictions environnementales au __niveau politique__.  
 J’ai rencontré des paysans qui m’ont parlé de leurs difficultés financières, alors que leur activité est vitale pour nous
-et notre planète. La Convention Citoyenne pour le Climat était un espoir, elle m’a déçue.
+et notre planète. La __Convention Citoyenne pour le Climat était un espoir__, elle, m’a déçue.
 
 Alors que je faisais partie de ces Français qui ne se sentent plus représentés par nos gouvernants, 
 qui se désintéressent de la politique, j’ai pris conscience que passer par les lois était nécessaire pour accompagner une transition écologique forte.
 
-Aussi, j’ai décidé de m’inscrire à la formation de « TOUSELUS : pourquoi pas toi ? ».
+Aussi, j’ai décidé de m’inscrire à la formation de __« TOUS ELUS : pourquoi pas toi ? »__.
 Une association apartisane qui forme les futurs députés, pour renouveler les visages de l’assemblée nationale.  
 Forte de cette expérience, j’ai aujourd’hui l’énergie, les connaissances, l’assurance que nous pouvons faire différemment.
+
+J'ai donc décidé de me présenter aux __élections législatives dans la 9e circonscription de l'Isère__. 
