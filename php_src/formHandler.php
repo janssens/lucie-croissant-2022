@@ -294,7 +294,8 @@ if (isset($_POST['name'])&&strlen($_POST['name'])){
     }
 }
 
-header('x-debug-errormsg: '.$errormsg);
+if ($errormsg)
+    header('x-debug-errormsg: '.$errormsg);
 
 if (isset($_POST['redirect_path']))
     header('Location: http'. (($_SERVER['HTTPS']) ? 's' : '') .'://'. $_SERVER['HTTP_HOST'].$_POST['redirect_path']);
