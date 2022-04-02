@@ -27,7 +27,7 @@
                                 {{ end }}
                                 </div>
                                 <div class="py-2 text-2xl text-center">Je donne
-                                    <input class="bg-transparent border-b-2 border-white border-solid w-12 font-black text-white text-center"
+                                    <input class="bg-transparent border-b-2 border-white border-solid w-16 font-black text-white text-center"
                                                                type="number" name="amount" placeholder="xx" required="required" />&nbsp;€
                                     <div id="res" class="hidden inline">soit <strong><span id="discounted_amount"></span> €</strong> après réduction fiscale
                                     <br><small>(réduction de <span id="gain"></span> € à hauteur de 20% du revenu imposable)</small></div>
@@ -305,17 +305,17 @@
 
                                 </select>
                                 <label class="w-full block cursor-pointer my-2" for="physique">
-                                    <input type="checkbox" id="physique" name="physique" value="on" required="required"/>
+                                    <input type="checkbox" id="physique" name="physique" value="on" required="required" class="mr-2"/>
                                     <div class="text-sm inline" >Je certifie sur l’honneur être une personne physique et conformément à la loi n°95-65 du 19 janvier 1995 relative au
                                     financement de la vie politique, le règlement de mon don ne provient pas d’une personne morale (Société, association,
                                         société civile...) mais de mon compte bancaire personnel. <sup>*</sup></div>
                                 </label>
                                 <label class="w-full block cursor-pointer my-2" for="france">
-                                    <input type="checkbox" id="france" name="france" value="on" required="required"/>
+                                    <input type="checkbox" id="france" name="france" value="on" required="required" class="mr-2"/>
                                     <div class="text-sm inline" >Je suis de nationalité française ou je réside fiscalement en France <sup>*</sup></div>
                                 </label>
                                 <label class="w-full block cursor-pointer my-2" for="rgpd">
-                                    <input type="checkbox" id="rgpd" name="rgpd" value="on" required="required"/>
+                                    <input type="checkbox" id="rgpd" name="rgpd" value="on" required="required" class="mr-2"/>
                                     <div class="text-sm inline" >Je consens à ce que ce site stocke mes informations envoyées afin qu’ils puissent répondre à ma requête <sup>*</sup></div>
                                 </label>
                                 <div class="grid grid-cols-3">

@@ -248,7 +248,7 @@ class DonationCsv{
             die('Error opening the file ' . $this->_filename);
         }
         if ($this->_with_header){
-            fputcsv($fileHandle, Entry::getHeader());
+            fputcsv($fileHandle, Donation::getHeader());
         }
         // write each row at a time to a file
         foreach ($this->_donations as $donation) {
