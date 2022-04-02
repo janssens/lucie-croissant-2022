@@ -74,5 +74,5 @@ footer nav li.active > a:after {
     @apply px-2 list-decimal pl-8 pb-3;
 }
 #sim a[role='button']{
-    @apply bg-eelv-green block m-1 p-2 text-white font-bold w-16 float-left text-center no-underline hover:no-underline hover:outline;
+    @apply bg-eelv-green block p-2 text-white font-bold text-center no-underline hover:no-underline hover:outline;
 }

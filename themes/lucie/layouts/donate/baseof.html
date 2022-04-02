@@ -12,75 +12,89 @@
                         </div>
                         <hr class="md:hidden">
                     {{ end }}
-                    <div class="p-4 bg-white text-union-blue md:bg-transparent md:w-1/2" id="main">
+                    <div id="content_to_expend" class="bg-white text-union-blue md:bg-transparent md:w-1/2 h-60 overflow-hidden md:h-auto relative">
+                        <div id="read_more_layer" class="bg-gradient-to-b from-transparent to-white absolute top-0 left-0 right-0 bottom-0 md:hidden hidden">
+                            <a class="absolute bottom-0 w-full text-center cursor-pointer font-sans uppercase italic" href="#appel_text" role="button" onclick="expend();">lire la suite &gt;</a>
+                        </div>
                         {{ .Content }}
                     </div>
-                    <div class="bg-white block w-full md:w-1/2 lg:w-1/3 xl:w-auto xl:max-w-lg md:absolute md:-top-20 md:right-0 lg:right-8">
-                        <div class="bg-union-blue text-white p-4 md:p-8 lg:p-10 mb-2 h-56" id="sim">
-                            {{ range .Site.Params.DonateValues }}
-                                <a role="button" href="#" data-value="{{.}}">{{.}} €</a>
-                            {{ end }}
-                            <div class="w-full clear-both"></div>
-                            <input class="text-black p-1 my-2" type="digit" name="ex_amount" placeholder="Montant (en euros)">
-                            <br>
-                            soit <strong>0 €</strong> après déduction d'impots (en euros)
-                        </div>
-                        <form action="/backend/donateHandler.php" method="post" class="bg-union-blue text-white p-4 md:p-8 lg:p-10">
-                            <input type="hidden" name="redirect_path" value="/pages/donate_merci/">
-                            <input class="opacity-0 absolute block w-0 h-0 overflow-hidden" type="text" name="name" placeholder="Nom">
-                            <div class="w-full text-black my-2 grid grid-cols-2 space-x-1">
-                                <input class="text-black p-1" type="text" required="required" name="firstname" placeholder="Prénom">
-                                <input class="text-black p-1 " type="text" required="required" name="lastname" placeholder="Nom">
+                    <div class="block w-full md:w-1/2 lg:w-1/3 xl:w-auto xl:max-w-lg md:absolute md:-top-20 md:right-0 lg:right-8">
+                        <form action="/backend/donateHandler.php" method="post" class="">
+                            <div class="bg-union-blue text-white p-4 md:p-8 lg:p-10 mb-2" id="sim">
+                                <div class="grid grid-cols-3 xl:grid-cols-6">
+                                {{ range .Site.Params.DonateValues }}
+                                    <a role="button" href="#" data-value="{{.}}" class="block m-1">{{.}} €</a>
+                                {{ end }}
+                                </div>
+                                <div class="py-2 text-2xl text-center">Je donne
+                                    <input class="bg-transparent border-b-2 border-white border-solid w-12 font-black text-white text-center"
+                                                               type="number" name="amount" placeholder="xx" required="required" />&nbsp;€
+                                    <div id="res" class="hidden inline">soit <strong><span id="discounted_amount"></span> €</strong> après réduction fiscale
+                                    <br><small>(réduction de <span id="gain"></span> € à hauteur de 20% du revenu imposable)</small></div>
+                                </div>
                             </div>
-                            <input class="w-full text-black p-1 my-2" type="email" required="required" name="mail" placeholder="mon@e-mail.fr">
-                            <input class="w-full text-black p-1 my-2" type="hidden" name="amount" placeholder="montant">
-                            <input class="w-full text-black p-1 my-2" type="text" required="required" name="telephone" placeholder="Téléphone">
-                            <input class="w-full text-black p-1 my-2" type="text" required="required" name="street" placeholder="n° et rue">
-                            <div class="w-full text-black my-2 grid grid-cols-3 space-x-1">
-                                <input class="text-black p-1" type="digit" required="required" name="postcode" placeholder="Code postal">
-                                <input class="text-black p-1 col-span-2" type="text" required="required" name="town" placeholder="Ville">
-                            </div>
-                            <input class="w-full text-black p-1 my-2" type="text" required="required" name="country" placeholder="Pays">
+                            <div class="bg-union-blue text-white p-4 md:p-8 lg:p-10">
+                                <input type="hidden" name="redirect_path" value="/pages/donate_merci/">
+                                <input class="opacity-0 absolute block w-0 h-0 overflow-hidden" type="text" name="name" placeholder="Nom">
+                                <div class="w-full text-black my-2 grid grid-cols-2 space-x-1">
+                                    <input class="text-black p-1" type="text" required="required" name="firstname" placeholder="Prénom">
+                                    <input class="text-black p-1 " type="text" required="required" name="lastname" placeholder="Nom">
+                                </div>
+                                <input class="w-full text-black p-1 my-2" type="email" required="required" name="mail" placeholder="mon@e-mail.fr">
+                                <input class="w-full text-black p-1 my-2" type="hidden" name="amount" placeholder="montant">
+                                <input class="w-full text-black p-1 my-2" type="text" required="required" name="telephone" placeholder="Téléphone">
+                                <input class="w-full text-black p-1 my-2" type="text" required="required" name="street" placeholder="n° et rue">
+                                <div class="w-full text-black my-2 grid grid-cols-3 space-x-1">
+                                    <input class="text-black p-1" type="number" required="required" name="postcode" placeholder="Code postal">
+                                    <input class="text-black p-1 col-span-2" type="text" required="required" name="town" placeholder="Ville">
+                                </div>
+                                <input class="w-full text-black p-1 my-2" type="text" required="required" name="country" placeholder="Pays">
 
-                            <label class="w-full block cursor-pointer my-2" for="physique">
-                                <input type="checkbox" id="physique" name="physique" value="on" required="required"/>
-                                <div class="text-sm inline" >Je certifie sur l’honneur être une personne physique et conformément à la loi n°95-65 du 19 janvier 1995 relative au
-                                financement de la vie politique, le règlement de mon don ne provient pas d’une personne morale (Société, association,
-                                    société civile...) mais de mon compte bancaire personnel.</div>
-                            </label>
-                            <label class="w-full block cursor-pointer my-2" for="france">
-                                <input type="checkbox" id="france" name="france" value="on" required="required"/>
-                                <div class="text-sm inline" >Je suis de nationalité française ou je réside fiscalement en France</div>
-                            </label>
-                            <label class="w-full block cursor-pointer my-2" for="rgpd">
-                                <input type="checkbox" id="rgpd" name="rgpd" value="on" required="required"/>
-                                <div class="text-sm inline" >Je consens à ce que ce site stocke mes informations envoyées afin qu’ils puissent répondre à ma requête</div>
-                            </label>
-                            <div class="grid grid-cols-3">
-                                <label for="check" class="cursor-pointer">
-                                    <input type="radio" id="check" name="method" value="check"/> chèque
+                                <label class="w-full block cursor-pointer my-2" for="physique">
+                                    <input type="checkbox" id="physique" name="physique" value="on" required="required"/>
+                                    <div class="text-sm inline" >Je certifie sur l’honneur être une personne physique et conformément à la loi n°95-65 du 19 janvier 1995 relative au
+                                    financement de la vie politique, le règlement de mon don ne provient pas d’une personne morale (Société, association,
+                                        société civile...) mais de mon compte bancaire personnel.</div>
                                 </label>
-                                <label for="sepa" class="cursor-pointer">
-                                    <input type="radio" id="sepa" name="method" value="sepa"/> virement
+                                <label class="w-full block cursor-pointer my-2" for="france">
+                                    <input type="checkbox" id="france" name="france" value="on" required="required"/>
+                                    <div class="text-sm inline" >Je suis de nationalité française ou je réside fiscalement en France</div>
                                 </label>
-                                <label for="creditcard" class="cursor-pointer">
-                                    <input type="radio" id="creditcard" name="method" value="creditcard"/> carte bancaire
+                                <label class="w-full block cursor-pointer my-2" for="rgpd">
+                                    <input type="checkbox" id="rgpd" name="rgpd" value="on" required="required"/>
+                                    <div class="text-sm inline" >Je consens à ce que ce site stocke mes informations envoyées afin qu’ils puissent répondre à ma requête</div>
                                 </label>
+                                <div class="grid grid-cols-3">
+                                    <label for="check" class="cursor-pointer">
+                                        <input type="radio" id="check" name="method" value="check"/> Par chèque
+                                    </label>
+                                    <label for="sepa" class="cursor-pointer">
+                                        <input type="radio" id="sepa" name="method" value="sepa"/> Par virement
+                                    </label>
+                                    <label for="creditcard" class="cursor-pointer">
+                                        <input type="radio" id="creditcard" name="method" value="creditcard"/> Par carte bancaire
+                                    </label>
+                                </div>
+                                <div class="bg-gray-300 border-solid border-l-8 border-eelv-green text-union-blue mt-4">
+                                    <div data-depends="method" data-check-value="check" class="p-4">
+                                        Envoyer un chèque à l’ordre AFE AVEC LC - Mandataire financier de la candidate Lucie Croissant - 639 route du Guillon - 38 500 COUBLEVIE
+                                    </div>
+                                    <div data-depends="method" data-check-value="sepa" class="p-4">
+                                        Faire un virement vers l’IBAN du compte de la campagne :
+                                        FR76XXXXXXXX 144 (code BIC : XXXX) en précisant comme nom du destinataire AFE AVEC LC pour Lucie Croissant
+                                    </div>
+                                    <div data-depends="method" data-check-value="creditcard" class="p-4">
+                                        Vous serez redirigé vers le site de notre banque afin de finaliser votre paiement
+                                    </div>
+                                </div>
+                                <input type="submit" class="block uppercase text-center bg-eelv-green text-white font-black mt-6 mx-auto py-2 px-4 cursor-pointer hover:bg-white hover:text-union-blue" value="Donner" >
+                                <div class="hidden md:block mt-8">&larr; Rappel de législation <a href="#legislation">ci contre</a></div>
                             </div>
-                            <div>
-                                <div data-depends="method" data-check-value="check">
-                                    envoyer un chèque à l’ordre AFE AVEC LC - Mandataire financier de la candidate Lucie Croissant - 639 route du Guillon - 38 500 COUBLEVIE
-                                </div>
-                                <div data-depends="method" data-check-value="sepa">
-                                    faire un virement vers l’IBAN du compte de la campagne :
-                                    FR76XXXXXXXX 144 (code BIC : XXXX) en précisant comme nom du destinataire AFE AVEC LC pour Lucie Croissant
-                                </div>
-                                <div data-depends="method" data-check-value="creditcard">
-                                    Vous serez redirigé vers le site de notre banque afin de finaliser votre paiement
-                                </div>
-                            </div>
-                            <input type="submit" class="block uppercase text-center bg-eelv-green text-white font-black mt-6 mx-auto py-2 px-4 cursor-pointer hover:bg-white hover:text-union-blue" value="Donner" >
                         </form>
+                    </div>
+                    <div class="md:w-1/2" id="legislation">
+                        {{- $file := printf "legislation.md" | printf "%s%s" .File.Dir | printf "%s" -}}
+                        {{ readFile $file | markdownify }}
                     </div>
                 </div>
             </section>
@@ -116,6 +130,60 @@
                     }
                 });
             })
+
+            let amount_links = d.querySelectorAll('#sim a[role="button"]');
+            let amount = d.querySelector('#sim input[name="amount"]')
+
+            amount_links.forEach(function (link){
+               link.addEventListener('click',function (e){
+                   e.preventDefault();
+                   let v = e.target.getAttribute('data-value');
+                   amount.value = v;
+                   updateDiscountedAmount();
+               })
+            });
+
+            amount.addEventListener('keyup',function (e){
+                updateDiscountedAmount();
+            });
+            amount.addEventListener('change',function (e){
+                updateDiscountedAmount();
+            });
+
+            function updateDiscountedAmount(){
+                let a = Math.floor(amount.value * 0.34);
+                if (a){
+                    d.getElementById("discounted_amount").innerHTML = a;
+                    d.getElementById("gain").innerHTML = amount.value - a;
+                    d.getElementById("res").classList.remove('hidden');
+                }else{
+                    d.getElementById("discounted_amount").innerHTML = '';
+                    d.getElementById("gain").innerHTML = 'xx';
+                    d.getElementById("res").classList.add('hidden');
+                }
+            }
+
+            let read_more = d.querySelector('#read_more_layer');
+            let read_more_links = d.querySelectorAll('#content_to_expend a');
+            let content_to_expend = d.querySelector('#content_to_expend');
+
+            function collapse(){
+                read_more.classList.remove('hidden');
+                content_to_expend.setAttribute('style','');
+                read_more_links.forEach(function (link){
+                    if (link.parentNode.id !== 'read_more_layer')
+                        link.setAttribute('tabindex','-1');
+                });
+            }
+            function expend(){
+                read_more.classList.add('hidden');
+                content_to_expend.style.height = 'auto';
+                read_more_links.forEach(function (link){
+                    link.setAttribute('tabindex','');
+                });
+            }
+
+            collapse();
 
         </script>
     </body>
