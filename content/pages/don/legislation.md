@@ -1,7 +1,7 @@
 ## Rappel de la législation
 
 L’Association de Financement AVEC LC, mandataire financier de la candidate Lucie Croissant pour les élection législatives de juin 2022 dans la 9ème
-circonscription de l’Isère, 639 route du GUILLON, 38500 COUBLEVIE, déclaré à la Préfecture de l’Isère le XXXXXX
+circonscription de l’Isère, 639 route du GUILLON, 38500 COUBLEVIE, déclaré à la Préfecture de l’Isère le 29 mars 2022.
 
 L'article 26 de la loi n° 2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique a modifié l'article L. 52-8 du code électoral : seules les
 personnes physiques de nationalité française ou résidant en France peuvent contribuer au financement des campagnes électorales dans la limite de 4
