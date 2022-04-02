@@ -30,7 +30,8 @@ Face aux urgences climatique, sociale, et démocratique, je me présente aux él
   
 Nous avons besoin de vous, car plus nous serons nombreux à signer cet appel, __plus nos voix pourront avoir un impact pour une candidature citoyenne__, de rassemblement, avec les partis qui souhaitent faire gagner l’écologie, la justice sociale et la démocratie en 2022.
 
-  
+Aujourd'hui, le parti __Europe Ecologie Les Verts a investi ma candidature.__ C'est une très bonne nouvelle pour le rassemblement aux élections législatives. Cependant, je reste __libre__ et continue d'__inviter les autres partis__ qui défendent l'écologie et la justice sociale, __à nous rejoindre__ pour faire bouger les lignes les 12 et 19 juin prochain.
+
 Signez cet appel et faites signer autour de vous, pour soutenir ma candidature aux élections législatives et porter la voix citoyenne à l’Assemblée Nationale.
 
 
