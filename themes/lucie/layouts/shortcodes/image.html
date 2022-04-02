@@ -5,13 +5,13 @@
     {{ $image_big := $image.Resize "2000x webp" }}
     {{ $image_resized := $image.Resize "752x webp" }}
     {{ with $image_resized }}
-    <a href="{{ $image_big.RelPermalink }}"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" /></a>
+<a href="{{ $image_big.RelPermalink }}"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" /></a>
     {{ end }}
 {{ else }}
     {{ $image_big := $image.Resize "2000x" }}
     {{ $image_resized := $image.Resize "752x" }}
     {{ with $image_resized }}
-    <a href="{{ $image_big.RelPermalink }}"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" /></a>
+<a href="{{ $image_big.RelPermalink }}"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" /></a>
     {{ end }}
 {{ end }}
 
