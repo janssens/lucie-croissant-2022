@@ -26,7 +26,7 @@ Vous trouverez les prochaines dates ici :
 
 ### Action en ligne
 
-__15 secondes !__ Je partage les contenus des pages Facebook, Instagram de la campagne de Lucie Croissant (liens en haut à droite)
+__15 secondes !__ Je partage les contenus des pages Facebook, Instagram de la campagne de Lucie Croissant (liens en haut à droite).
 __5 minutes !__ J’invite 10 amies et amis à s’abonner à la page facebook et / ou instagram.  
 __10 minutes !__ Je fais passer l’appel à 10 de mes contacts habitant la 9e circonscription de l’Isère (Cantons de Pont-en-Royans, Rives, Saint-Marcellin, Tullins, Vinay, Voiron).</p>
 
