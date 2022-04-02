@@ -16,13 +16,13 @@ accueillir des bénévoles, c’est un sacré budget.
 C’est pourquoi nous lançons une campagne de dons.
 
 Plus nous aurons des moyens financiers, plus nous pourrons mener des actions efficaces, pour faire
-entendre nos voix, et avoir des chances de gagner les législatives.  
-Si je finance moi même une partie du budget, je sollicite aussi mon cercle proche, ma famille mes amis.
+entendre nos voix, et avoir des chances de gagner aux élections législatives.  
+Si je finance moi-même une partie du budget, je sollicite aussi mon cercle proche, ma famille et mes amis.
 Mais ce ne sera pas suffisant pour mener une campagne efficace.  
 J’ai besoin de vous ! Et même quelques euros chacun, ça compte, et surtout, ça nous met du baume au
 coeur !  
 
-Si vous êtes imposable, vous bénéficiez d’une déduction d’impôt égale à 66% de vos dons dans la limite
+Si vous êtes imposable à l'impôt sur le revenu, vous bénéficiez d’une réduction d’impôts égale à 66%, dans la limite
 de 20% du revenu imposable de votre foyer.  
 Nous collectons les dons par le biais de notre association de financement AVEC LC, mandataire
-financier de Lucie Croissant
+financier de Lucie Croissant.
