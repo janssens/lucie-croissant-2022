@@ -17,7 +17,7 @@ Vous trouverez ci dessous, les différents moyens d’action que nous proposons,
 
 {{% image filename="LUCIE_CROISANT_LEGISLATIVES_2022@pierre.delva@foyer-image.com_29.jpg" alt="Une équipe motivée &copy; pierre.delva@foyer-image.com" %}}
 
-Aussi, pour répondre à toutes vos questions, et pour que vous soyez à l’aise pour parle du projet autour de vous, nous organisons des réunions apéros d’information action.
+Aussi, pour répondre à toutes vos questions, et pour que vous soyez à l’aise pour parler du projet autour de vous, nous organisons des réunions apéros d’information/action.
 Vous trouverez les prochaines dates ici :
 
 - _mardi 5 avril - Notre Dame de l'Osier - à partir de 17h30_ marché de  avec l'association TERO LOKO
@@ -26,8 +26,7 @@ Vous trouverez les prochaines dates ici :
 
 ### Action en ligne
 
-__15 secondes !__ Je partage les conte
-nus des pages Facebook, Instagram de la campagne de Lucie Croissant  
+__15 secondes !__ Je partage les contenus des pages Facebook, Instagram de la campagne de Lucie Croissant (liens en haut à droite)
 __5 minutes !__ J’invite 10 amies et amis à s’abonner à la page facebook et / ou instagram.  
 __10 minutes !__ Je fais passer l’appel à 10 de mes contacts habitant la 9e circonscription de l’Isère (Cantons de Pont-en-Royans, Rives, Saint-Marcellin, Tullins, Vinay, Voiron).</p>
 
