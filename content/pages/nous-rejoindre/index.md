@@ -8,12 +8,12 @@ menu:
         weight: 40
 ---
 
+{{% image filename="LUCIE_CROISANT_LEGISLATIVES_2022@pierre.delva@foyer-image.com_29.jpg" alt="Une équipe motivée &copy; pierre.delva@foyer-image.com" class="md:float-right m-4" width="500" %}}
+
 __Nous avons besoin de vous !__ Sur le terrain, en ligne, que vous soyez dans la 9e circonscription de l’Isère ou plus loin.
 Il existe __des formes d’engagement différentes__ : 15 sec, 1h ou plus, tout le monde a quelque chose à apporter, peu importe votre âge et votre expérience. On a d’ailleurs beaucoup de personnes qui découvrent ce que c’est de faire campagne. __Alors rejoignez nous !__
 
 Vous trouverez ci dessous, les différents moyens d’action que nous proposons, et si vous souhaitez vous engager davantage, __inscrivez-vous__ [ici](/index.html#signer).
-
-{{% image filename="LUCIE_CROISANT_LEGISLATIVES_2022@pierre.delva@foyer-image.com_29.jpg" alt="Une équipe motivée &copy; pierre.delva@foyer-image.com" %}}
 
 Aussi, pour répondre à toutes vos questions, et pour que vous soyez à l’aise pour parler du projet autour de vous, nous organisons des __réunions apéro d’information / action.__   
 
