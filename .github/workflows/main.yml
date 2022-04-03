@@ -28,7 +28,8 @@ jobs:
         run: cd ./themes/lucie/
       - name: 🔥 Generate css
         uses: mikeal/npx@master
-        args: "tailwindcss -i ./src/input.css -o ./static/css/all.css -m;"
+        with:
+          args: "tailwindcss -i ./src/input.css -o ./static/css/all.css -m;"
       # Deploy
       - name: 🚀 Rsync Deploy Hugo
         uses: up9cloud/action-rsync@master
