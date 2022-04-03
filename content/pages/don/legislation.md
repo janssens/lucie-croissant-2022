@@ -10,5 +10,5 @@ personnes physiques de nationalité française ou résidant en France peuvent co
 Selon l’article L. 52-8 du code électoral, « les personnes morales, à l'exception des partis ou groupements politiques, ne peuvent participer au
 financement de la campagne électorale d'un candidat, ni en lui consentant des dons sous quelque forme que ce soit, ni en lui fournissant des biens,
 services ou autres avantages directs ou indirects à des prix inférieurs à ceux qui sont habituellement pratiqués ».
-Vous disposez d’un droit d’accès aux données vous concernant, en vous adressant à  {{< cloakemail address="luciecroissant2022@gmail.com" >}} , conformément aux dispositions
-de l’article 34 de la loi n° 48-87 du 6 janvier 1978.  
+Vous disposez d’un droit d’accès aux données vous concernant, en vous adressant à {{< cloakemail address="luciecroissant2022@gmail.com" >}}, 
+conformément aux dispositions de l’article 34 de la loi n° 48-87 du 6 janvier 1978.  
