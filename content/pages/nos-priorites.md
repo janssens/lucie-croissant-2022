@@ -9,77 +9,72 @@ menu:
 ---
 {{% div class="eelv-green" %}}
 
-# Nos priorités en raccourci :
-- TVA à 0% sur l’alimentation biologique
-- Une Vraie Loi climat
-- Volumes de base (eau/ électricité / gaz) gratuit, puis ensuite tarifs progressifs
-- Diminution du temps de travail (convention citoyenne sur le temps de travail )
-- Hausse du smic et bas salaires
-- Convention citoyenne pour le renouveau démocratique
-- du bio et locale dans les cantines 2027 
-{{% /div %}}
+L'écologie doit être juste socialement. Elle doit répondre aux besoins de chacun, et on ne peut pas demander les mêmes efforts de sobriété à chacun. Voici quelques __mesures concrètes__ qui visent à mettre en lumière comment l'écologie peut être positive, populaire et juste. Cette écologie est synonyme de plus de confort, de pouvoir d'achat, et de santé.
+
+- Rendre __gratuit les volumes de base__ eau/ électricité / gaz, puis instaurer une progressivité des tarifs.
+- Proposer une __alimentation 100 % bio et locale__ dans les __cantines publiques d'ici 2027__.
+- Mettre __fin à l'obsolescence programmée__, augmenter la durée de vie et la __réparabilité des produits__.
+- __Moins taxer ce qui a un impact positif__ (TVA à 0 % sur l’alimentation biologique et locale), et __taxer plus ce qui pollue__ (20 % de TVA sur les transports polluants, taxe sur les vols internationaux).
+- Mettre en place un __Impôt Sur la Fortune climatique__
+
   
 {{% div class="more"%}}
-En détails :
+Ici je vous détaille __mes priorités__, ce n'est donc _pas un programme complet_ comme pour les élections présidentielles. 
 {{% /div %}}
-## POUR UNE RÉPUBLIQUE __ÉCOLOGIQUE__
-### Rupture 1
+# POUR UNE RÉPUBLIQUE __ÉCOLOGIQUE__
+## 1. Une Vraie Loi Climat
 
-Une vraie loi Climat pour reconvertir notre ÉCONOMIE et ACCOMPAGNER nos entreprises dans la transition
+Inspirée des propositions de la Convention Citoyenne pour le Climat __pour une baisse d’au moins 40 % des émissions de gaz à effet de serre d’ici 2030__ Cela comprend, entre autre:
 
-- Reprendre les propositions de la Convention Citoyenne pour le Climat
-- avec notamment la mise en place d’un grand plan de rénovation thermique des bâtiments (10 Md€/ an, réduction de 50% de la consommation d’énergie // 5 millions de passoires thermiques rénovées en 10 ans)
-- à travers une relance verte et socialement juste, porteuse de centaine de milliers d’emplois non délocalisables.
-- Cet investissement permettra une baisse des factures énergétiques, une amélioration du confort et une nouvelle politique d’aménagement du territoire portée par les collectivités locales.
+- Mettre en place un __grand plan de rénovation thermique des bâtiments__ (d'un budget de 10 Md€/an, il vise à  la réduction de 50 % de la consommation d’énergie due au chauffage avec la rénovation de 5 millions de passoires thermiques en 10 ans).
+- __Lutter contre l’artificialisation des sols__ et l’étalement urbain __en rendant attractive la vie dans les villes et les villages__, en interdisant toute artificialisation des terres tant que des __réhabilitations des friches commerciales, artisanales ou industrielles__ sont possibles dans l’enveloppe urbaine existante.
+- __Interdire dès 2022 les néonicotinoïdes, le glyphosate__ ainsi que tous les pesticides les plus dangereux. 
+- __Mettre fin à l'obsolescence programmée__, prolonger la durée de vie des produits en élargissant ceux concernés par __l'indice de réparabilité / durabilité__ et les durées de garantie (entre 5 et 10 ans),  inciter à la __réparation et favoriser les réseaux de surcyclage__, recyclage.
 
-### Rupture 2
-Une grande loi de transition alimentaire vers une agriculture paysanne et écologique.
-Accompagner les agriculteurs et agricultrices dans leur reconversion vers une agriculture paysanne notamment par :
+Pour voir le __rapport complet des 147 mesures proposées__ et rédigées par les citoyens, c'est ici : https://propositions.conventioncitoyennepourleclimat.fr/
 
-- la reprise par la Caisse des dépôts et Consignations de la dette des agriculteurs et agricultrices qui passent à une agriculture bio
-- la protection des agriculteurs et agricultrices de la mondialisation en refusant les traités de libre-échange ne respectant pas les accords de Paris ;
-- réforme de la PAC (fin de l’élevage intensif, relocalisation de la production, pour faire nos paysans dignement avec la fin des aides à la surface pour passer à des aides à l’emploi)
-- 100% bio et local en 2027 dans les cantines
-- d’ici 2025, fin de l’élevage industriel (- exportation animaux, + culture protéine végétale)
+## 2. Une Grande Loi De Transition Alimentaire
 
-### Rupture 3
-Une fiscalité plus juste et écologique
+### Pour aller vers __une agriculture paysanne durable et écologique__.
 
-- ISF Climatique (sur les patrimoines supérieurs à 2 M€) qui rapportera au moins 15 Milliard€
-- TVA à 5,5 % pour les transports collectifs et les services de réparation, à 0 % pour l’alimentation biologique. À 20% pour les transports polluants
-- Imposer les multinationales qui ont une activité en France. (harmonisation en Europe avec 25% minimum sur les multinationales)
-- Prélever un impôt sur le revenu (IR) plus progressif.
-- Prise en compte des critères climatiques et sociaux pour la mise en place des réformes (réduction des inégalités économiques et égalités femme -homme, de GES, de destruction d’espace naturels, de satisfaction, d’espérance de vie, de réussite scolaire )
+Se nourrir est un besoin vital. En moyenne, le degré d’autonomie alimentaire des 100 premières aires urbaines françaises est de 2%. Et pourtant, en 50 ans, 1 million de paysans ont disparu. 23 % de ceux qui restent vivent sous le seuil de pauvreté. Aussi, les accords internationaux permettant d'importer des produits ne respectant pas les règles européennes ne protègent pas assez nos agriculteurs de cette concurrence déloyale. C'est pourquoi il est important de :
 
-## POUR UNE RÉPUBLIQUE __SOCIALE__
-### Rupture 4
+- __Protéger les agriculteurs et agricultrices de la mondialisation__ en refusant les traités de libre-échange ne respectant pas les accords de Paris.
+- Réformer  la Politique Agricole Commune (__fin de l’élevage intensif__, relocalisation de la production, pour faire vivre nos paysans dignement avec la fin des aides à la surface pour __passer à des aides à l’emploi__) 
+- Rendre possible le __100% bio et local en 2027 dans les cantines publiques__ (écoles, administrations, universités, hôpitaux, prisons..).
+- Mettre fin, d’ici 2025, à l’élevage industriel (__moins d'exportations d'animaux, plus de  cultures de protéines végétales__).
+- Reprendre, avec la Caisse des Dépôts et Consignations, la dette des agriculteurs et agricultrices qui passent à une __agriculture bio__.
 
-PERMETTRE À CHACUN ET CHACUNE DE COUVRIR SES BESOINS ESSENTIELS
 
-- Mettre en place un revenu citoyen dès 18 ans (personne ne vivra avec moins de 918 € mensuel) 740 €+ aides
-- assurer un volume de base gratuit pour l'eau / gaz / électricité.
+# POUR UNE __FISCALITE PLUS JUSTE__ ET ÉCOLOGIQUE
+## 3. ISF Climatique Et Fiscalité
 
-### Rupture 5
-Un emploi et un salaire justes pour toutes et tous
+Les __10% les plus riches polluent 4 fois plus__ que les 10% les plus pauvres du fait de leur mode de vie. 
+Plus en détail, le patrimoine financier des 1% des ménages les plus riches est associé à une __empreinte carbone 66 fois supérieure__ à celle des 10 % les plus pauvres.
+Avec la suppression partielle de l’ISF par E. Macron, les ultra riches paient proportionnellement moins d’impôts (46,6% de leurs revenus) que pour la moyenne des Français (50% de leur revenu). (source: Greenpeace / Oxfam)
 
-- favoriser une forme de diminution du temps de travail (convention citoyenne sur le temps de travail )
-- Pour un travail digne : rehausser le SMIC de 10% et l’ensemble des bas salaires
-- réduire les écarts de salaires (revenues supérieurs à 20 SMIC non déductibles d’impôt sur les sociétés )
-- Renforcer l’égalité salariale entre femmes et hommes et instaurer un congé parentalité égalitaire et obligatoire. (16 semaines)
+Pour que ceux qui polluent participent plus au financement de la transition, et pour les inciter à investir et faire des placements dans l’économie de la transition, je soutiens l'ISF Climatique et une réforme de la fiscalité :
 
-### Rupture 6
+- Rétablir un __impôt climatique sur la fortune__ (sur les patrimoines supérieurs à 2 M€, il comportera un bonus-malus selon l'impact des actifs financiers et immobiliers sur le climat). Cet ISF climatique rapportera au moins 15 Milliards € par an.  
+- Instaurer une  __TVA à 5,5%__ pour les __transports collectifs__ et les __services de réparation__, __à 0% pour l’alimentation biologique__, à __20% pour les transports polluants__.
+- Imposer les multinationales qui ont une activité en France (harmonisation en Europe avec 25% minimum sur les multinationales).
+- Prélever un __Impôt sur le Revenu (IR) plus progressif__ qui sera __moins lourd pour les classes moyennes__ (14 tranches au lieu de 5 aujourd'hui)
+- __Modifier nos indicateurs__ pour faire les choix politiques : le Produit Intérieur Brut (PIB) prend en compte la pollution de l’air, la publicité pour le tabac, la guerre : 
+« _En un mot, le PIB mesure tout, sauf ce qui fait que la vie vaut la peine d’être vécue_ »  (Robert F. Kennedy)
+Nous proposons de __prendre en compte de nouveaux indices__ comme l'Indice de Développement Humain adapté à la pression planétaire, ou l'IDHP  (Programme de Développement des Nations Unies) qui __prend en compte l'espérance de vie__, le niveau d'__éducation__, __les émissions de gaz à effet de serre__. 
+En 2019, le PIB de la France la classe en 7e position mondiale, alors que son IDHP la classe 26e position (derrière la Corée du Sud).
 
-INVESTIR MASSIVEMENT DANS LE SOCIAL, PRIORITAIREMENT DANS LA SANTÉ ET L'ÉDUCATION
+## 4. Un Emploi Pour Vivre Dignement
 
-- Augmenter les salaires des professionnel.le.s de l'éducation et de la santé
-- Lutter contre les déserts médicaux (dernière année d’internat et 2 premières années d’exercice devront être exercées dans les zones en manque)
-- Investir dans le système hospitalier et les métiers du soin, essentiellement assumés par des femmes.
+- __Rehausser le SMIC et l’ensemble des bas salaires__ pour que les personnes qui travaillent puissent vivre dignement.
+- Réduire les écarts de salaires (revenus supérieurs à 20 SMIC non déductibles d’impôt sur les sociétés ).
+- Renforcer l’__égalité salariale entre femmes et hommes__ ainsi qu’instaurer un congé parentalité égalitaire et obligatoire (16 semaines).
+- Favoriser une forme de __diminution du temps de travail__ avec une Convention Citoyenne ( retraite à 60 ans ? semaine de 4 jours ? semaine de 32h ? )
 
-## POUR UNE RÉPUBLIQUE __DÉMOCRATIQUE__
-### Rupture 7
+# POUR UNE RÉPUBLIQUE DÉMOCRATIQUE 
+## 5. Redonner du Pouvoir Au Peuple
 
-RESTAURER LA CONFIANCE DANS NOTRE DÉMOCRATIE / Vers une 6e République
-
-- Convention Citoyenne pour le renouveau démocratique (comment rééquilibrer les pouvoirs du ou de la présidente et du Parlement, permettre l’intervention populaire..)
-- garantir l’indépendance des médias
-- loi de séparation Etat – lobbys
+- Créer une __Convention Citoyenne__ pour le renouveau démocratique (comment rééquilibrer les pouvoirs du ou de la présidente et du Parlement, permettre l’intervention populaire,...).
+- Garantir l’__indépendance des médias__.
+- Faire voter une loi de __séparation Etat – lobbys__.
+- Limiter les élus à __2 mandats maximum__.
