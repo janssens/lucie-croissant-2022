@@ -1,17 +1,19 @@
 {{- $filename := .Get "filename" | default (.Get 0) -}}
 {{- $alt := .Get "alt" | default (.Get 1) -}}
+{{- $class := .Get "class" | default (.Get 2) -}}
+{{- $width := .Get "width" | default "752" -}}
 {{ $image := .Page.Resources.GetMatch $filename }}
 {{ if hugo.IsExtended }}
     {{ $image_big := $image.Resize "2000x webp" }}
-    {{ $image_resized := $image.Resize "752x webp" }}
+    {{ $image_resized := printf $width | printf "%sx webp" | $image.Resize }}
     {{ with $image_resized }}
-<a href="{{ $image_big.RelPermalink }}"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" /></a>
+<a href="{{ $image_big.RelPermalink }}"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" class="{{ $class }}" /></a>
     {{ end }}
 {{ else }}
     {{ $image_big := $image.Resize "2000x" }}
-    {{ $image_resized := $image.Resize "752x" }}
+    {{ $image_resized := printf $width | printf "%sx" | $image.Resize }}
     {{ with $image_resized }}
-<a href="{{ $image_big.RelPermalink }}"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" /></a>
+<a href="{{ $image_big.RelPermalink }}"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" class="{{ $class }}" /></a>
     {{ end }}
 {{ end }}
 

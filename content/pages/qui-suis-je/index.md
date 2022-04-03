@@ -19,7 +19,7 @@ J’ai fait partie d’un comité de direction, en tant que responsable du servi
 __Aujourd’hui__, je suis devenue __consomm’actrice, marcheuse pour le climat et lobbyiste__ pour la planète auprès de mes cercles professionnels, sociaux, familiaux.
 Mes 2 enfants ont accéléré ma prise de conscience écologique. Ma passion sportive se transforme en passion pour des __actions  en faveur de l’environnement__.
 
-{{% image filename="lucie_croissant.jpg" alt="lucie croissant sportive" %}}
+{{% image filename="lucie_croissant.jpg" alt="lucie croissant sportive" class="md:float-right m-4" width="500" %}}
 
 
 Mes compétitions aux 4 coins du monde (Championnats du monde à Hawaï ou Diagonale des fous à La Réunion,...) 
