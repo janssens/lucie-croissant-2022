@@ -24,9 +24,11 @@ jobs:
       - name: 🔥 Build website
         run: hugo --minify -v
       # Step 4 - Builds the css
+      - name: cd
+        run: cd ./themes/lucie/
       - name: 🔥 Generate css
         uses: mikeal/npx@master
-        run: cd ./themes/lucie/; npx tailwindcss -i ./src/input.css -o ./static/css/all.css -m;
+        args: "tailwindcss -i ./src/input.css -o ./static/css/all.css -m;"
       # Deploy
       - name: 🚀 Rsync Deploy Hugo
         uses: up9cloud/action-rsync@master
