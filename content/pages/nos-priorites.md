@@ -21,7 +21,7 @@ L'écologie doit être juste socialement. Elle doit répondre aux besoins de cha
 {{% /div %}}
 
 {{% div class="more"%}}
-Ici je vous détaille __mes priorités__, je n'aborde donc pas tous les sujets.  
+Ici je vous détaille __mes priorités__, je n'aborde donc pas tous les domaines.  
 {{% /div %}}
 ## POUR UNE RÉPUBLIQUE __ÉCOLOGIQUE__
 ### 1. Une Vraie Loi Climat
