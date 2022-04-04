@@ -50,7 +50,7 @@ footer nav li.active > a:after {
     @apply ml-2;
 }
 #main a{
-    @apply underline underline-offset-2 hover:text-eelv-green hover:decoration-union-blue;
+    @apply underline underline-offset-2 text-eelv-green hover:decoration-union-blue;
 }
 #main img{
     @apply m-auto;
@@ -59,19 +59,19 @@ footer nav li.active > a:after {
     @apply my-6 px-2;
 }
 #main h1{
-    @apply px-2 py-4 bg-union-blue text-2xl uppercase text-white font-serif md:bg-transparent md:text-union-blue mb-4;
+    @apply px-2 py-4 bg-union-blue text-3xl uppercase text-white font-sans md:bg-transparent md:text-union-blue my-4;
 }
 #main h2{
-    @apply px-2 py-4 bg-union-blue text-xl uppercase text-white font-serif md:bg-transparent md:text-union-blue mb-4;
+    @apply px-2 py-4 bg-eelv-green text-2xl uppercase text-white font-sans font-bold my-3;
 }
 #main h3{
-    @apply px-2 font-serif text-2xl text-eelv-green;
+    @apply px-2 font-serif font-bold text-xl text-union-blue  uppercase;
 }
 #main h4{
-    @apply pl-6 pr-2 font-serif text-xl mt-2 ;
+    @apply pl-6 pr-2 font-serif text-xl mt-2 text-eelv-green text-center;
 }
 #main ul{
-    @apply my-6 px-2 list-disc pl-8 pb-3;
+    @apply my-6 px-2 list-disc max-w-4xl m-auto;
 }
 #main ol{
     @apply px-2 list-decimal pl-8 pb-3;

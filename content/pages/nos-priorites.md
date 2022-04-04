@@ -20,7 +20,7 @@ L'écologie doit être juste socialement. Elle doit répondre aux besoins de cha
 - Mettre en place un __Impôt Sur la Fortune climatique__
 {{% /div %}}
 
-{{% div class="more"%}}
+{{% div class="max-w-lg m-auto my-6 text-eelv-green text-center text-xl"%}}
 Ici je vous détaille __mes priorités__, je n'aborde donc pas tous les domaines.  
 {{% /div %}}
 ## POUR UNE RÉPUBLIQUE __ÉCOLOGIQUE__
@@ -33,13 +33,15 @@ Inspirée des propositions de la Convention Citoyenne pour le Climat __pour une 
 - __Interdire dès 2022 les néonicotinoïdes, le glyphosate__ ainsi que tous les pesticides les plus dangereux. 
 - __Mettre fin à l'obsolescence programmée__, prolonger la durée de vie des produits en élargissant ceux concernés par __l'indice de réparabilité / durabilité__ et les durées de garantie (entre 5 et 10 ans),  inciter à la __réparation et favoriser les réseaux de surcyclage__, recyclage.
 
+{{% div class="text-sm text-center max-w-2xl m-auto my-6" %}}
 Pour voir le __rapport complet des 147 mesures proposées__ et rédigées par les citoyens, c'est ici : [conventioncitoyennepourleclimat.fr](https://propositions.conventioncitoyennepourleclimat.fr/)
+{{% /div %}}
 
 ### 2. Une Grande Loi De Transition Alimentaire
 
-#### Pour aller vers __une agriculture paysanne durable et écologique__.
-
 Se nourrir est un besoin vital. En moyenne, le degré d’autonomie alimentaire des 100 premières aires urbaines françaises est de 2%. Et pourtant, en 50 ans, 1 million de paysans ont disparu. 23 % de ceux qui restent vivent sous le seuil de pauvreté. Aussi, les accords internationaux permettant d'importer des produits ne respectant pas les règles européennes ne protègent pas assez nos agriculteurs de cette concurrence déloyale. C'est pourquoi il est important de :
+
+#### Pour aller vers __une agriculture paysanne durable et écologique__.
 
 - __Protéger les agriculteurs et agricultrices de la mondialisation__ en refusant les traités de libre-échange ne respectant pas les accords de Paris.
 - Réformer  la Politique Agricole Commune (__fin de l’élevage intensif__, relocalisation de la production, pour faire vivre nos paysans dignement avec la fin des aides à la surface pour __passer à des aides à l’emploi__) 
