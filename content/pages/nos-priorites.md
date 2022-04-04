@@ -41,7 +41,7 @@ Se nourrir est un besoin vital. En moyenne, le degré d’autonomie alimentaire 
 
 - __Protéger les agriculteurs et agricultrices de la mondialisation__ en refusant les traités de libre-échange ne respectant pas les accords de Paris.
 - Réformer  la Politique Agricole Commune (__fin de l’élevage intensif__, relocalisation de la production, pour faire vivre nos paysans dignement avec la fin des aides à la surface pour __passer à des aides à l’emploi__) 
-- Rendre possible le __100% bio et local en 2027 dans les cantines publiques__ (écoles, administrations, universités, hôpitaux, prisons..).
+- Proposer le __100% bio et local en 2027 dans les cantines publiques__ (écoles, administrations, universités, hôpitaux, prisons..).
 - Mettre fin, d’ici 2025, à l’élevage industriel (__moins d'exportations d'animaux, plus de  cultures de protéines végétales__).
 - Reprendre, avec la Caisse des Dépôts et Consignations, la dette des agriculteurs et agricultrices qui passent à une __agriculture bio__.
 
