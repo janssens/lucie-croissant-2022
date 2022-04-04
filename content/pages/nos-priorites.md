@@ -19,7 +19,7 @@ L'écologie doit être juste socialement. Elle doit répondre aux besoins de cha
 
   
 {{% div class="more"%}}
-Ici je vous détaille __mes priorités__, ce n'est donc _pas un programme complet_ comme pour les élections présidentielles. 
+Ici je vous détaille __mes priorités__, je n'aborde donc pas tous les sujets.  
 {{% /div %}}
 # POUR UNE RÉPUBLIQUE __ÉCOLOGIQUE__
 ## 1. Une Vraie Loi Climat
