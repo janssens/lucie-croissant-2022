@@ -71,7 +71,7 @@ footer nav li.active > a:after {
     @apply pl-6 pr-2 font-serif text-xl mt-2 text-eelv-green text-center;
 }
 #main ul{
-    @apply my-6 px-2 list-disc max-w-4xl m-auto;
+    @apply my-6 px-2 list-disc md:max-w-4xl md:m-auto pl-6 md:pl-0;
 }
 #main ol{
     @apply px-2 list-decimal pl-8 pb-3;
