@@ -10,6 +10,6 @@ theme = "lucie"
 enableGitInfo = true
 enableRobotsTXT = true
 [params]
-  cssVersion = '202204031448'
+  cssVersion = '202204041004'
   baselinehtml = 'Candidate citoyenne aux __élections législatives__ de la 9e circonsctription de l’__Isère__ du __12 & 19 juin 2022__'
   donateValues = [ 10, 50, 100, 200, 500, 600 ]
