@@ -47,6 +47,7 @@ Se nourrir est un besoin vital. En moyenne, le degré d’autonomie alimentaire 
 - Mettre fin, d’ici 2025, à l’élevage industriel (__moins d'exportations d'animaux, plus de  cultures de protéines végétales__).
 - Reprendre, avec la Caisse des Dépôts et Consignations, la dette des agriculteurs et agricultrices qui passent à une __agriculture bio__.
 
+
 ## POUR UNE __FISCALITE PLUS JUSTE__ ET ÉCOLOGIQUE
 ### 3. ISF Climatique Et Fiscalité
 
@@ -60,10 +61,7 @@ Pour que ceux qui polluent participent plus au financement de la transition, et 
 - Instaurer une  __TVA à 5,5%__ pour les __transports collectifs__ et les __services de réparation__, __à 0% pour l’alimentation biologique__, à __20% pour les transports polluants__.
 - Imposer les multinationales qui ont une activité en France (harmonisation en Europe avec 25% minimum sur les multinationales).
 - Prélever un __Impôt sur le Revenu (IR) plus progressif__ qui sera __moins lourd pour les classes moyennes__ (14 tranches au lieu de 5 aujourd'hui)
-- __Modifier nos indicateurs__ pour faire les choix politiques : le Produit Intérieur Brut (PIB) prend en compte la pollution de l’air, la publicité pour le tabac, la guerre : 
-« _En un mot, le PIB mesure tout, sauf ce qui fait que la vie vaut la peine d’être vécue_ »  (Robert F. Kennedy)
-Nous proposons de __prendre en compte de nouveaux indices__ comme l'Indice de Développement Humain adapté à la pression planétaire, ou l'IDHP  (Programme de Développement des Nations Unies) qui __prend en compte l'espérance de vie__, le niveau d'__éducation__, __les émissions de gaz à effet de serre__. 
-En 2019, le PIB de la France la classe en 7e position mondiale, alors que son IDHP la classe 26e position (derrière la Corée du Sud).
+
 
 ### 4. Un Emploi Pour Vivre Dignement
 
@@ -71,6 +69,12 @@ En 2019, le PIB de la France la classe en 7e position mondiale, alors que son ID
 - Réduire les écarts de salaires (revenus supérieurs à 20 SMIC non déductibles d’impôt sur les sociétés ).
 - Renforcer l’__égalité salariale entre femmes et hommes__ ainsi qu’instaurer un congé parentalité égalitaire et obligatoire (16 semaines).
 - Favoriser une forme de __diminution du temps de travail__ avec une Convention Citoyenne ( retraite à 60 ans ? semaine de 4 jours ? semaine de 32h ? )
+- __Modifier nos indicateurs__ pour faire les choix politiques : le Produit Intérieur Brut (PIB) prend en compte la pollution de l’air, la publicité pour le tabac, la guerre : 
+« _En un mot, le PIB mesure tout, sauf ce qui fait que la vie vaut la peine d’être vécue_ »  (Robert F. Kennedy)
+Nous proposons de __prendre en compte de nouveaux indices__ comme l'Indice de Développement Humain adapté à la pression planétaire, ou l'IDHP  (Programme de Développement des Nations Unies) qui __prend en compte l'espérance de vie__, le niveau d'__éducation__, __les émissions de gaz à effet de serre__. 
+En 2019, le PIB de la France la classe en 7e position mondiale, alors que son IDHP la classe 26e position (derrière la Corée du Sud).
+
+
 
 ## POUR UNE RÉPUBLIQUE DÉMOCRATIQUE 
 ### 5. Redonner du Pouvoir Au Peuple
