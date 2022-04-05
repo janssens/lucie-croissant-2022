@@ -14,7 +14,7 @@ menu:
 L'écologie doit être juste socialement. Elle doit répondre aux besoins de chacun, et on ne peut pas demander les mêmes efforts de sobriété à chacun. Voici quelques __mesures concrètes__ qui visent à mettre en lumière comment l'écologie peut être positive, populaire et juste. Cette écologie est synonyme de plus de confort, de pouvoir d'achat, et de santé.
 
 - Rendre __gratuit les volumes de base__ eau/ électricité / gaz, puis instaurer une progressivité des tarifs.
-- Proposer une __alimentation 100 % bio et locale__ dans les __cantines publiques d'ici 2027__.
+- Pour la santé de nos enfants et nos familles, je propose une __alimentation 100 % bio et locale__ dans les __cantines publiques d'ici 2027__.
 - Mettre __fin à l'obsolescence programmée__, augmenter la durée de vie et la __réparabilité des produits__.
 - __Moins taxer ce qui a un impact positif__ (TVA à 0 % sur l’alimentation biologique et locale), et __taxer plus ce qui pollue__ (20 % de TVA sur les transports polluants, taxe sur les vols internationaux).
 - Mettre en place un __Impôt Sur la Fortune climatique__
@@ -68,7 +68,7 @@ Pour que ceux qui polluent participent plus au financement de la transition, et 
 ### 4. Un Emploi Pour Vivre Dignement
 
 - __Rehausser le SMIC et l’ensemble des bas salaires__ pour que les personnes qui travaillent puissent vivre dignement.
-- Réduire les écarts de salaires (revenus supérieurs à 20 SMIC non déductibles d’impôt sur les sociétés ).
+- Réduire les écarts de salaires (revenus supérieurs à 20 SMIC ne soient plus déductibles d’impôt sur les sociétés ).
 - Renforcer l’__égalité salariale entre femmes et hommes__ ainsi qu’instaurer un congé parentalité égalitaire et obligatoire (16 semaines).
 - Favoriser une forme de __diminution du temps de travail__ avec une Convention Citoyenne ( retraite à 60 ans ? semaine de 4 jours ? semaine de 32h ? )
 - __Modifier nos indicateurs__ pour faire les choix politiques : le Produit Intérieur Brut (PIB) prend en compte la pollution de l’air, la publicité pour le tabac, la guerre : 
