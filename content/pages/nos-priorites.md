@@ -26,7 +26,7 @@ Ici je vous détaille __mes priorités__, je n'aborde donc pas tous les domaines
 ## POUR UNE RÉPUBLIQUE __ÉCOLOGIQUE__
 ### 1. Une Vraie Loi Climat
 
-Inspirée des propositions de la Convention Citoyenne pour le Climat __pour une baisse d’au moins 40 % des émissions de gaz à effet de serre d’ici 2030__ Cela comprend, entre autre:
+Inspirée des propositions de la Convention Citoyenne pour le Climat __pour viser une baisse de 55 % des émissions de gaz à effet de serre d’ici 2030__ Cela comprend, entre autre:
 
 - Mettre en place un __grand plan de rénovation thermique des bâtiments__ (d'un budget de 10 Md€/an, il vise à  la réduction de 50 % de la consommation d’énergie due au chauffage avec la rénovation de 5 millions de passoires thermiques en 10 ans).
 - __Lutter contre l’artificialisation des sols__ et l’étalement urbain __en rendant attractive la vie dans les villes et les villages__, en interdisant toute artificialisation des terres tant que des __réhabilitations des friches commerciales, artisanales ou industrielles__ sont possibles dans l’enveloppe urbaine existante.
