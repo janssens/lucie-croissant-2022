@@ -25,7 +25,8 @@ Tout prochainement :
 
 - _jeudi 7 avril - Coublevie_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_jeudi_7_avril?utm_source=luciecroissantlegislatives&utm_medium=website&utm_campaign=page_nous-rejoindre)
 - _vendredi 8 avril - En ligne_ [lien pour s'inscrire et recevoir le lien de connexion](https://luciecroissantlegislatives.nationbuilder.com/visio_8_avril_20220408)
-- _jeudi 14 avril - St Aupre_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_14_avril_st_aupre?utm_source=luciecroissantlegislatives&utm_medium=website&utm_campaign=page_nous-rejoindre).
+- _jeudi 14 avril - St Aupre_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_14_avril_st_aupre?utm_source=luciecroissantlegislatives&utm_medium=website&utm_campaign=page_nous-rejoindre)
+
 
 
 ### Action en ligne
