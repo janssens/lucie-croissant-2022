@@ -28,6 +28,7 @@ Tout prochainement :
 - _jeudi 14 avril - St Aupre_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_14_avril_st_aupre?utm_source=luciecroissantlegislatives&utm_medium=website&utm_campaign=page_nous-rejoindre)
 
 
+
 ### Action en ligne
 
 __15 secondes !__ Je partage les contenus des pages Facebook, Instagram de la campagne de Lucie Croissant (liens en haut à droite).   
