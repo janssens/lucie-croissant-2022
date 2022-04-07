@@ -19,8 +19,12 @@ Aussi, pour répondre à toutes vos questions, et pour que vous soyez à l’ais
 
 __Vous trouverez les prochaines dates ici__ :
 
-- _mardi 5 avril - Notre Dame de l'Osier - à partir de 17h30_ au marché de Notre Dame de l'Osier avec l'association TERO LOKO
+🗓️ Calendrier des actions de campagne & **formulaires d'inscriptions** [lien vers le calendrier pour s'inscrire](https://luciecroissantlegislatives.nationbuilder.com/calendrier_campagne) 
+
+Tout prochainement :
+
 - _jeudi 7 avril - Coublevie_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_jeudi_7_avril?utm_source=luciecroissantlegislatives&utm_medium=website&utm_campaign=page_nous-rejoindre)
+- _vendredi 8 avril - En ligne_ [lien pour s'inscrire et recevoir le lien de connexion (https://luciecroissantlegislatives.nationbuilder.com/visio_8_avril_20220408)
 - _jeudi 14 avril - St Aupre_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_14_avril_st_aupre?utm_source=luciecroissantlegislatives&utm_medium=website&utm_campaign=page_nous-rejoindre)
 
 
