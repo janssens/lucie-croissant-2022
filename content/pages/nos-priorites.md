@@ -7,7 +7,7 @@ menu:
         title: "Nos priorites"
         weight: 20
 ---
-# Nos priotités
+# Nos priorités
 
 {{% div class="eelv-green py-4 -mt-4" %}}
 
