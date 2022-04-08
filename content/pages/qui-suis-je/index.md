@@ -34,7 +34,7 @@ J’ai aussi fait une première expérience politique lors __des municipales en 
 __Et demain ?__
 Je souhaite porter mes convictions environnementales au __niveau politique__.  
 J’ai rencontré des paysans qui m’ont parlé de leurs difficultés financières, alors que leur activité est vitale pour nous
-et notre planète. La __Convention Citoyenne pour le Climat était un espoir__, elle, m’a déçue.
+et notre planète. La __Convention Citoyenne pour le Climat était un espoir__. Son traitement par le gouvernement m’a déçu.
 
 Alors que je faisais partie de ces Français qui ne se sentent plus représentés par nos gouvernants, 
 qui se désintéressent de la politique, j’ai pris conscience que passer par les lois était nécessaire pour accompagner une transition écologique forte.
