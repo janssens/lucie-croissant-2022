@@ -1,6 +1,7 @@
 ---
 title: "Mentions légales"
 date: 2022-03-29T10:39:56+02:00
+metadesc: "Lire les mentions légales du site de lucie croissant, candidate aux élections législative 2022"
 draft: false
 menu:
     footer:

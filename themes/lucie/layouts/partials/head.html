@@ -2,5 +2,8 @@
     <meta charset="UTF-8">
     <title>{{- .Title -}} | {{- .Site.Title -}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{- .Params.metadesc -}}" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
     <link href="/css/all.css{{with .Site.Params.cssVersion }}?v={{ . }}{{end}}" rel="stylesheet">
 </head>

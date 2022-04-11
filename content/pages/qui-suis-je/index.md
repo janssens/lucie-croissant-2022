@@ -1,6 +1,7 @@
 ---
 title: "Qui suis-je ?"
 date: 2022-03-29T10:39:56+02:00
+metadesc: "Découvrez qui est Lucie Croissant, candidate citoyenne aux élections législatives 2022 dans la 9e circonsctription de l'Isère"
 draft: false
 menu:
     main:

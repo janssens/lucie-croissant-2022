@@ -1,6 +1,7 @@
 ---
 title: "Éco-conception"
 date: 2022-03-29T10:39:56+02:00
+metadesc: "Découvrez qu'est-ce qu'un site éco-conçu et pourquoi le construire de la sorte."
 draft: false
 menu:
     footer:

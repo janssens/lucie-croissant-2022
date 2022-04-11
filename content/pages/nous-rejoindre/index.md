@@ -1,6 +1,7 @@
 ---
 title: "Nous rejoindre"
 date: 2022-03-29T10:39:56+02:00
+metadesc: "Rejoignez Lucie Croissant et son équipe pour faire gagner l'écologie et la justice sociale dans l'Isère"
 draft: false
 menu:
     main:

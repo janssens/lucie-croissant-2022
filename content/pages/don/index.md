@@ -1,6 +1,7 @@
 ---
 title: "Faire un don"
 date: 2022-03-29T10:39:56+02:00
+metadesc: "Faire un don pour faire gagner l'écologie et la justice sociale dans l'Isère en 2022"
 draft: false
 type: donate
 resources:

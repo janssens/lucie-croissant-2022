@@ -1,6 +1,7 @@
 ---
 title: "Nos priorites"
 date: 2022-03-29T10:39:56+02:00
+metadesc: "Découvrez les priorités de Lucie Croissant, candidate citoyenne aux élections législatives de la 9e circonsctription de l’Isère du 12 & 19 juin 2022"
 draft: false
 menu:
     main:

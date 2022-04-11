@@ -1,6 +1,7 @@
 ---
 title: "Merci"
 date: 2022-03-29T10:39:56+02:00
+metadesc: "Merci pour votre signature"
 draft: false
 ---
 # Merci d'avoir signé l'appel.
