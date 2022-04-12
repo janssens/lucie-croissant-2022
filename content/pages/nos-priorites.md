@@ -19,6 +19,7 @@ L'écologie doit être juste socialement. Elle doit répondre aux besoins de cha
 - Mettre __fin à l'obsolescence programmée__, augmenter la durée de vie et la __réparabilité des produits__.
 - __Moins taxer ce qui a un impact positif__ (TVA à 0 % sur l’alimentation biologique et locale), et __taxer plus ce qui pollue__ (20 % de TVA sur les transports polluants, taxe sur les vols internationaux).
 - Mettre en place un __Impôt Sur la Fortune climatique__
+- Inscrire dans la Constitution la __protection des animaux__.
 {{% /div %}}
 
 {{% div class="max-w-lg m-auto my-6 text-eelv-green text-center text-xl"%}}
@@ -31,7 +32,6 @@ Inspirée des propositions de la Convention Citoyenne pour le Climat __pour vise
 
 - Mettre en place un __grand plan de rénovation thermique des bâtiments__ (d'un budget de 10 Md€/an, il vise à  la réduction de 50 % de la consommation d’énergie due au chauffage avec la rénovation de 5 millions de passoires thermiques en 10 ans).
 - __Lutter contre l’artificialisation des sols__ et l’étalement urbain __en rendant attractive la vie dans les villes et les villages__, en interdisant toute artificialisation des terres tant que des __réhabilitations des friches commerciales, artisanales ou industrielles__ sont possibles dans l’enveloppe urbaine existante.
-- __Interdire dès 2022 les néonicotinoïdes, le glyphosate__ ainsi que tous les pesticides les plus dangereux. 
 - __Mettre fin à l'obsolescence programmée__, prolonger la durée de vie des produits en élargissant ceux concernés par __l'indice de réparabilité / durabilité__ et les durées de garantie (entre 5 et 10 ans),  inciter à la __réparation et favoriser les réseaux de surcyclage__, recyclage.
 
 {{% div class="text-sm text-center max-w-2xl m-auto my-6" %}}
@@ -45,10 +45,11 @@ Se nourrir est un besoin vital. En moyenne, le degré d’autonomie alimentaire 
 #### Pour aller vers __une agriculture paysanne durable et écologique__.
 
 - __Protéger les agriculteurs et agricultrices de la mondialisation__ en refusant les traités de libre-échange ne respectant pas les accords de Paris.
-- Réformer  la Politique Agricole Commune (__fin de l’élevage intensif__, relocalisation de la production, pour faire vivre nos paysans dignement avec la fin des aides à la surface pour __passer à des aides à l’emploi__) 
+- Rediriger les aides nationales et régionales dans l'investissement vers la diversification, la relocalisation de la production, la production de légumineuses.
 - Proposer le __100% bio et local en 2027 dans les cantines publiques__ (écoles, administrations, universités, hôpitaux, prisons..).
 - Mettre fin, d’ici 2025, à l’élevage industriel (__moins d'exportations d'animaux, plus de  cultures de protéines végétales__).
 - Reprendre, avec la Caisse des Dépôts et Consignations, la dette des agriculteurs et agricultrices qui passent à une __agriculture bio__.
+- Appliquer nos normes de production aux __produits importés__.
 
 
 ## POUR UNE __FISCALITE PLUS JUSTE__ ET ÉCOLOGIQUE
