@@ -25,9 +25,10 @@ __Vous trouverez les prochaines dates ici__ :
 Tout prochainement :
 
 - _jeudi 14 avril - St Aupre_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_14_avril_st_aupre?utm_source=luciecroissantlegislatives&utm_medium=website&utm_campaign=page_nous-rejoindre)  
-- _vendredi 15 avril - St-Marcellin_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_vendredi_15_avril)   
-
-
+- _vendredi 15 avril - Vinay_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_vendredi_15_avril_vinay)   
+- _mardi 26 avril - Coublevie_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_mardi_26_avril)   
+- _jeudi 28 avril - Tullins_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_jeudi_28_avril_tullins)   
+- 
 
 
 ### Action en ligne
