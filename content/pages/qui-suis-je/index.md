@@ -14,7 +14,7 @@ Je m’appelle Lucie Croissant, j’ai 34 ans.
 __Hier__, je me définissais comme __passionnée de défis sportifs__(triathlon, raids, ultra trails) et __professionnels__.
 
 J’ai travaillé __12 ans dans l’industrie du sport dans des TPE et des grands groupes (ASO, B’TWIN /Décathlon, Adidas, TIME SPORT / Groupe Rossignol)__.
-J’ai fait partie d’un comité de direction, en tant que responsable du service marketing. J’ai aussi représenté les salariés en tant qu’élue du personnel, notamment lors de plans de licenciements. Fille d'ouvrier, élève boursière en Ecole de Commerce avec un prêt étudiant de 30 000 € pour commencer la vie active, j'ai réalisé ce que signifiait l'égalité ou l'inégalité des chances. 
+J’ai fait partie d’un comité de direction, en tant que responsable du service marketing. J’ai aussi représenté les salariés en tant qu’élue du personnel, notamment lors de plans de licenciements. __Fille d'ouvrier, élève boursière__ en Ecole de Commerce avec un prêt étudiant de 30 000 € pour commencer la vie active, j'ai réalisé ce que signifiait l'__égalité ou l'inégalité des chances__. 
 
 
 __Aujourd’hui__, je suis devenue __consomm’actrice, marcheuse pour le climat et lobbyiste__ pour la planète auprès de mes cercles professionnels, sociaux, familiaux.
