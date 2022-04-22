@@ -14,7 +14,7 @@ Je m’appelle Lucie Croissant, j’ai 34 ans.
 __Hier__, je me définissais comme __passionnée de défis sportifs__(triathlon, raids, ultra trails) et __professionnels__.
 
 J’ai travaillé __12 ans dans l’industrie du sport dans des TPE et des grands groupes (ASO, B’TWIN /Décathlon, Adidas, TIME SPORT / Groupe Rossignol)__.
-J’ai fait partie d’un comité de direction, en tant que responsable du service marketing. J’ai aussi représenté les salariés en tant qu’élue du personnel, notamment lors de plans de licenciements.
+J’ai fait partie d’un comité de direction, en tant que responsable du service marketing. J’ai aussi représenté les salariés en tant qu’élue du personnel, notamment lors de plans de licenciements. Fille d'ouvrier, élève boursière en Ecole de Commerce avec un prêt étudiant de 30 000 € pour commencer la vie active, j'ai réalisé ce que signifiait l'égalité ou l'inégalité des chances. 
 
 
 __Aujourd’hui__, je suis devenue __consomm’actrice, marcheuse pour le climat et lobbyiste__ pour la planète auprès de mes cercles professionnels, sociaux, familiaux.
@@ -34,11 +34,11 @@ J’ai aussi fait une première expérience politique lors __des municipales en 
 
 __Et demain ?__
 Je souhaite porter mes convictions environnementales au __niveau politique__.  
-J’ai rencontré des paysans qui m’ont parlé de leurs difficultés financières, alors que leur activité est vitale pour nous
-et notre planète. La __Convention Citoyenne pour le Climat était un espoir__. Son traitement par le gouvernement m’a déçu.
+Devenir maraîchère bio est le métier dans lequel je souhaite me reconvertir. Il me ramène en quelques sortes à mes premiers "emplois saisonniers" que j'ai fait depuis que j'ai 16 ans.  Dernièrement, j’ai rencontré des paysans qui m’ont parlé de leurs difficultés financières, alors que leur activité est essentielle et vitale pour nous et notre planète. Ce ne sont pas les seuls métiers essentiels (santé, éducation, soins à la personnes,.. ) qui sont si importants mais si peu valorisés. 
+Aussi, la __Convention Citoyenne pour le Climat était un espoir__. Son traitement par le gouvernement m’a déçu.
 
 Alors que je faisais partie de ces Français qui ne se sentent plus représentés par nos gouvernants, 
-qui se désintéressent de la politique, j’ai pris conscience que passer par les lois était nécessaire pour accompagner une transition écologique forte.
+qui se désintéressent de la politique, j’ai pris conscience que passer par les lois était nécessaire pour accompagner une transition écologique forte. Surtout, que nous devions choisir des femmes et des hommes politiques qui se présentent pour des convictions, et non pas pour faire une carrière politique. 
 
 Aussi, j’ai décidé de m’inscrire à la formation de __« TOUS ELUS : pourquoi pas toi ? »__.
 Une association apartisane qui forme les futurs députés, pour renouveler les visages de l’assemblée nationale.  
