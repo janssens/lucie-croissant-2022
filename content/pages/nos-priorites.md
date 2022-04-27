@@ -17,8 +17,9 @@ L'écologie doit être juste socialement. Elle doit répondre aux besoins de cha
 - Rendre __gratuit les volumes de base__ eau/ électricité / gaz, puis instaurer une progressivité des tarifs.
 - Pour la santé de nos enfants et nos familles, je propose une __alimentation 100 % bio et locale__ dans les __cantines publiques d'ici 2027__.
 - Mettre __fin à l'obsolescence programmée__, augmenter la durée de vie et la __réparabilité des produits__.
-- __Moins taxer ce qui a un impact positif__ (TVA à 0 % sur l’alimentation biologique et locale), et __taxer plus ce qui pollue__ (20 % de TVA sur les transports polluants, taxe sur les vols internationaux).
-- Mettre en place un __Impôt Sur la Fortune climatique__
+- Mettre en place un __Impôt Sur la Fortune climatique__ 15 milliards d'euros par an pour financer la transition.
+- Inclure les citoyens dans les décisions et les débats via des __assemblées citoyennes__.
+- La retraite à __60 ans__.
 - Inscrire dans la Constitution la __protection des animaux__.
 {{% /div %}}
 
@@ -28,11 +29,12 @@ Ici je vous détaille __mes priorités__, je n'aborde donc pas tous les domaines
 ## POUR UNE RÉPUBLIQUE __ÉCOLOGIQUE__
 ### 1. Une Vraie Loi Climat
 
-Inspirée des propositions de la Convention Citoyenne pour le Climat __pour viser une baisse de 55 % des émissions de gaz à effet de serre d’ici 2030__ Cela comprend, entre autre:
+Inspirée des propositions de la Convention Citoyenne pour le Climat __pour viser une baisse de 65 % des émissions de gaz à effet de serre d’ici 2030__ Cela comprend, entre autre:
 
 - Mettre en place un __grand plan de rénovation thermique des bâtiments__ (d'un budget de 10 Md€/an, il vise à  la réduction de 50 % de la consommation d’énergie due au chauffage avec la rénovation de 5 millions de passoires thermiques en 10 ans).
 - __Lutter contre l’artificialisation des sols__ et l’étalement urbain __en rendant attractive la vie dans les villes et les villages__, en interdisant toute artificialisation des terres tant que des __réhabilitations des friches commerciales, artisanales ou industrielles__ sont possibles dans l’enveloppe urbaine existante.
 - __Mettre fin à l'obsolescence programmée__, prolonger la durée de vie des produits en élargissant ceux concernés par __l'indice de réparabilité / durabilité__ et les durées de garantie (entre 5 et 10 ans),  inciter à la __réparation et favoriser les réseaux de surcyclage__, recyclage.
+- Mettre en place la __règle d'or climatique__  pour veiller à la compatibilité de la loi de finances avec une trajectoire de respect de la baisse de 65% des émissions de gaz à effet de serre. 
 
 {{% div class="text-sm text-center max-w-2xl m-auto my-6" %}}
 Pour voir le __rapport complet des 147 mesures proposées__ et rédigées par les citoyens, c'est ici : [conventioncitoyennepourleclimat.fr](https://propositions.conventioncitoyennepourleclimat.fr/)
