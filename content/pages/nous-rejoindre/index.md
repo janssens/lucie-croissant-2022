@@ -24,8 +24,8 @@ __Vous trouverez les prochaines dates ici__ :
 
 Tout prochainement :
 
-- _mardi 26 avril - Coublevie_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_mardi_26_avril)   
-- _jeudi 28 avril - Tullins_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_jeudi_28_avril_tullins)   
+- _jeudi 5 mai - Vinay_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_jeudi_5_mai_vinay)   
+- _jeudi 28 avril - Tullins_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_jeudi_28_avril_tullins)__   
 
    
    
