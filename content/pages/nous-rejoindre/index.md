@@ -23,9 +23,9 @@ __Vous trouverez les prochaines dates ici__ :
 🗓️ Calendrier de campagne & **formulaires d'inscriptions** [lien cliquable vers le calendrier pour s'inscrire](https://luciecroissantlegislatives.nationbuilder.com/calendrier_campagne) 
 
 Tout prochainement :
-
-- _jeudi 5 mai - Vinay_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_jeudi_5_mai_vinay)   
-- _jeudi 28 avril - Tullins_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_jeudi_28_avril_tullins)__   
+   
+- _jeudi 28 avril - Tullins_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_jeudi_28_avril_tullins)  
+- _jeudi 5 mai - Vinay_ [lien pour s'inscrire et recevoir l'adresse](https://luciecroissantlegislatives.nationbuilder.com/accueil_jeudi_5_mai_vinay)
 
 
 
