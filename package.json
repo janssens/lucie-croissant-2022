@@ -1,0 +1,24 @@
+{
+  "name": "lucie-croissant-2022",
+  "version": "1.0.0",
+  "description": "build using html, css, vanilla js, hugo, tailwindcss.   php and nationbuilder API where used for back-end functionalities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janssens/lucie-croissant-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janssens/lucie-croissant-2022/issues"
+  },
+  "homepage": "https://github.com/janssens/lucie-croissant-2022#readme",
+  "dependencies": {
+    "@tinacms/cli": "^1.0.3",
+    "tinacms": "^1.1.0"
+  }
+}

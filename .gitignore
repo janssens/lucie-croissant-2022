@@ -7,3 +7,4 @@ data/*.csv
 themes/lucie/static/img/*ORI.jpg
 php_src/vendor/
 php_src/data/*.csv
+node_modules
