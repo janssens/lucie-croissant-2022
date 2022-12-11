@@ -25,7 +25,7 @@ jobs:
         run: rm -rf public
       # Step 5 - Builds the site using the latest version of Hugo
       - name: 🔥 Build website
-        run: echo "$TINA_CLIENT_ID" && npx tinacms build && hugo --minify -v
+        run: npx tinacms build && hugo --minify -v
         env:
           TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
       # Deploy
