@@ -8,3 +8,4 @@ themes/lucie/static/img/*ORI.jpg
 php_src/vendor/
 php_src/data/*.csv
 node_modules
+.tina/__generated__

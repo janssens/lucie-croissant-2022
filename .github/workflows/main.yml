@@ -17,12 +17,15 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-      # Step 3 - Clean and don't fail
+      # Step 3 - install tinacms
+      - name: 🛠️ install tinacms
+        run: npm install
+      # Step 4 - Clean and don't fail
       - name: 🛠️ Clean public directory
         run: rm -rf public
-      # Step 4 - Builds the site using the latest version of Hugo
+      # Step 5 - Builds the site using the latest version of Hugo
       - name: 🔥 Build website
-        run: hugo --minify -v
+        run: npx tinacms build && hugo --minify -v
       # Deploy
       - name: 🚀 Rsync Deploy Hugo
         uses: up9cloud/action-rsync@master

@@ -10,7 +10,7 @@
     token: null,      // Get this from tina.io
     build: {
       outputFolder: "admin",
-      publicFolder: "public",
+      publicFolder: "static",
     },
     media: {
       tina: {
@@ -21,9 +21,9 @@
     schema: {
       collections: [
         {
-          name: "post",
-          label: "Posts",
-          path: "content/posts",
+          name: "pages",
+          label: "Pages",
+          path: "content/pages",
           fields: [
             {
               type: "string",
