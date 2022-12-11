@@ -10,7 +10,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: 🚚 Get latest code
-        uses: actions/checkout@v2.3.2
+        uses: actions/checkout@v3
       # Step 2 - Sets up the latest version of Hugo
       - name: 🛠️ Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -26,6 +26,8 @@ jobs:
       # Step 5 - Builds the site using the latest version of Hugo
       - name: 🔥 Build website
         run: npx tinacms build && hugo --minify -v
+        env:
+          TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
       # Deploy
       - name: 🚀 Rsync Deploy Hugo
         uses: up9cloud/action-rsync@master
