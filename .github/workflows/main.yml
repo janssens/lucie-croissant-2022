@@ -29,6 +29,7 @@ jobs:
         env:
           TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+          HEAD: master
       # Deploy
       - name: 🚀 Rsync Deploy Hugo
         uses: up9cloud/action-rsync@master
